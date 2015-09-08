@@ -1,0 +1,91 @@
+1441756097s:2561:"a:6:{s:5:"mtime";i:1441554438;s:7:"content";s:1196:"title = "Error page (500)"
+url = "/error"
+==
+<html>
+    <head>
+        <title>Error 404 - Page not found</title>
+
+        <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                color: #FFF;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+                background-color: #0B4A42;
+            }
+
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .title {
+                font-size: 72px;
+                margin-bottom: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">We're sorry, but something went wrong and the page cannot be displayed.</div>
+            </div>
+        </div>
+    </body>
+</html>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:3:{s:5:"title";s:16:"Error page (500)";s:3:"url";s:6:"/error";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1150:"<html>
+    <head>
+        <title>Error 404 - Page not found</title>
+
+        <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                color: #FFF;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+                background-color: #0B4A42;
+            }
+
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .title {
+                font-size: 72px;
+                margin-bottom: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">We're sorry, but something went wrong and the page cannot be displayed.</div>
+            </div>
+        </div>
+    </body>
+</html>";}";

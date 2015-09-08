@@ -1,0 +1,341 @@
+1441756097s:20805:"a:6:{s:5:"mtime";i:1441706336;s:7:"content";s:10220:"title = "Home"
+url = "/"
+layout = "default"
+is_hidden = "0"
+
+[advanced]
+idSlider = "1"
+height = "500"
+autoplay = "true"
+fillmode = "2"
+transaction = "2"
+autoplayinterval = "10000"
+pauseonhover = "1"
+arrowkeynavigation = "true"
+slideduration = "400"
+mindragoffset = "0"
+slidespacing = "0"
+dragorientation = "3"
+playorientation = "1"
+chancetoshow = "2"
+autocenter = "1"
+orientation = "1"
+spacingx = "8"
+spacingy = "8"
+steps = "1"
+lanes = "1"
+chancetoshowarrow = "1"
+autocenterarrow = "2"
+stepsarrow = "1"
+==
+<div class="banner">
+    <div class="container-fluids">
+        {% component 'advanced' %}
+    </div>
+            <div class="clearfix"> </div>
+        </div>
+
+
+        <div class="news-events">
+            <div class="container">
+                <section class="component-row"><div class="container"><div class="row outer">
+                    <div class="col-sm-4">
+                        <div class="block block-thumbnail">
+                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="block block-thumbnail">
+                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="block events-list">
+                            <h3 class="block-header">Events</h3>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">17</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">18</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">19</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="more-link"><a href="http://events.ucu.edu.ph">More events</a></div>
+                        </div>
+                    </div>
+                    </div><!-- /.row -->
+                </div>
+            </section>
+        </div>
+        </div>
+        <div class="index-about">
+            <div class="container">
+                <h3>About</h3>
+                <p>Dolor nunc vule putateulr ips dol consec.Donec sem ertet laciniate ultricie upie disse utes comete dolo lectus. fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore condime netus lullam utlacus adipiscing ipsum molestie euismod lore estibulum vel libero ipsum sit
+                amet sollicitudin ante. Aenean imperdiet aliquet hendreritunc interdum ullamcorper lec tuset pellentesqu enim interdum atuspendisse malesuada dignissim.</p>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="testimonials-info">
+                <div class="col-md-6 testimonials-text">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque unde quis aperiam natus quam nemo dolorem impedit</h5>
+                </div>
+            </div>
+        </div>
+
+        <link href='{{ "assets/css/swipebox.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <script src="{{ ['assets/javascript/jquery.swipebox.min.js']|theme }}"></script>
+<script type="text/javascript">
+                                                                jQuery(function($) {
+                                                                $(".swipebox").swipebox();
+                                                                });
+</script>
+    <div class="services">
+    <div class="container">
+    <h3>School Services</h3>
+            <div class="services-top-info">
+                    <div class="port-folio-bottom">
+                        <div id="portfoliolist">
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Library</span></h4>
+                                <a href="images/b-w1.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Canteen</span></h4>
+                                <a href="images/b-w2.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Gym</span></h4>
+                                <a href="images/b-w3.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Security</span></h4>
+                                <a href="images/b-w4.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:4:"true";s:8:"fillmode";s:1:"2";s:11:"transaction";s:1:"2";s:16:"autoplayinterval";s:5:"10000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:4:"true";s:13:"slideduration";s:3:"400";s:13:"mindragoffset";s:1:"0";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"3";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:1:"8";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"1";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:9684:"<div class="banner">
+    <div class="container-fluids">
+        {% component 'advanced' %}
+    </div>
+            <div class="clearfix"> </div>
+        </div>
+
+
+        <div class="news-events">
+            <div class="container">
+                <section class="component-row"><div class="container"><div class="row outer">
+                    <div class="col-sm-4">
+                        <div class="block block-thumbnail">
+                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="block block-thumbnail">
+                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="block events-list">
+                            <h3 class="block-header">Events</h3>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">17</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">18</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left">
+                                        <div class="date">
+                                            <span class="month">AUG</span> <span class="day">19</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><a href="http://events.ucu.edu.ph/?event_ID=90096">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="more-link"><a href="http://events.ucu.edu.ph">More events</a></div>
+                        </div>
+                    </div>
+                    </div><!-- /.row -->
+                </div>
+            </section>
+        </div>
+        </div>
+        <div class="index-about">
+            <div class="container">
+                <h3>About</h3>
+                <p>Dolor nunc vule putateulr ips dol consec.Donec sem ertet laciniate ultricie upie disse utes comete dolo lectus. fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore condime netus lullam utlacus adipiscing ipsum molestie euismod lore estibulum vel libero ipsum sit
+                amet sollicitudin ante. Aenean imperdiet aliquet hendreritunc interdum ullamcorper lec tuset pellentesqu enim interdum atuspendisse malesuada dignissim.</p>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="testimonials-info">
+                <div class="col-md-6 testimonials-text">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque unde quis aperiam natus quam nemo dolorem impedit</h5>
+                </div>
+            </div>
+        </div>
+
+        <link href='{{ "assets/css/swipebox.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <script src="{{ ['assets/javascript/jquery.swipebox.min.js']|theme }}"></script>
+<script type="text/javascript">
+                                                                jQuery(function($) {
+                                                                $(".swipebox").swipebox();
+                                                                });
+</script>
+    <div class="services">
+    <div class="container">
+    <h3>School Services</h3>
+            <div class="services-top-info">
+                    <div class="port-folio-bottom">
+                        <div id="portfoliolist">
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Library</span></h4>
+                                <a href="images/b-w1.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Canteen</span></h4>
+                                <a href="images/b-w2.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Gym</span></h4>
+                                <a href="images/b-w3.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="col-md-3 portfolio-wrapper">
+                                <h4><span>Security</span></h4>
+                                <a href="images/b-w4.jpg" class="b-link-stripe b-animate-go  swipebox">
+                                <img src="http://placehold.it/248x249" alt="" class="img-responsive"><div class="b-wrapper">
+                                    <h2 class="b-animate b-from-left    b-delay03">
+                                    <!-- <img src="images/Dumbbell.png" alt=""> -->
+                                    </h2>
+                                </div></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                <label> </label>
+                                <span><a href="single.html">Read More</a></span>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+    </div>";}";

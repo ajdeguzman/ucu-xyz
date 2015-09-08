@@ -1,0 +1,62 @@
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+{
+    background: url(../images/b21.png) no-repeat;
+    overflow:hidden;
+    cursor: pointer;
+}
+.jssorb21 div { background-position: -5px -5px; }
+.jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+.jssorb21 .av { background-position: -65px -5px; }
+.jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../images/a21.png) center center no-repeat;
+    overflow: hidden;
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21ldn { background-position: -243px -33px; }
+.jssora21rdn { background-position: -303px -33px; }
+.load{
+	background: url(../images/loading.gif) no-repeat center center;
+}
+.carousel-caption-slider.right-top {
+    right: 18px;
+    left: inherit;
+    top: 18px;
+    bottom: inherit;
+}
+.carousel-caption-slider.bg-white {
+    background-color: #f2f1eb;
+    opacity: .9;
+}
+.carousel-caption-slider {
+    width: 500px;
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    top: inherit;
+    right: inherit;
+    text-align: left;
+    text-shadow: none;
+    color: inherit;
+    padding: 15px 20px;
+}
+.carousel-caption-slider h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: -1px;
+    margin: 0 0 10px 0;
+}
+@media screen and (min-width: 768px)
+.carousel-caption-slider {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+}
