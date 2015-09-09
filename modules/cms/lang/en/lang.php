@@ -90,7 +90,7 @@ return [
     'page' => [
         'not_found_name' => "The page ':name' is not found",
         'not_found' => [
-            'label' => 'Page not found',
+            'label' => 'Page Not Found',
             'help' => 'The requested page cannot be found.'
         ],
         'custom_error' => [

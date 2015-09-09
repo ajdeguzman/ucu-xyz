@@ -25,7 +25,7 @@ description = "Default layout"
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <h1>
-                                        <a  href="{{ 'home'|page }}" class="navbar-brand" title="UCU" rel="home">
+                                        <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
                                         <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo.png"|theme }}'></span>
                                         <span class="navbar-brand-white"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
                                         </a>
@@ -39,7 +39,7 @@ description = "Default layout"
                                         <nav id="primary-nav" role="navigation">
                                             <ul class="nav navbar-nav">
                                                     <li>
-                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
+                                                        <a  href="{{ 'home'|page }}/" style="font-weight:600">Home</a>
                                                     </li>
                                                     <li class="dropdown yamm-fw">
                                                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">About <b class="caret"></b></a>
@@ -100,7 +100,7 @@ description = "Default layout"
                                                                             <div class="subnav">
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6"><ul class="list-unstyled">
-                                                                                        <li><a href="/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/scholarships" class="">Scholarship Grants</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/graduates" class="">Graduate</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/undergraduates" class="">Undergraduate</a></li>

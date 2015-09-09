@@ -228,7 +228,7 @@ return [
     'request_log' => [
         'hint' => 'This log displays a list of browser requests that may require attention. For example, if a visitor opens a CMS page that cannot be found, a record is created with the status code 404.',
         'menu_label' => 'リクエストログ',
-        'menu_description' => '正しくないリクエストやリダイレクトを表示します。例えば "Page not found (404)" です。',
+        'menu_description' => '正しくないリクエストやリダイレクトを表示します。例えば "Page Not Found (404)" です。',
         'empty_link' => 'リクエストログを空にする',
         'empty_loading' => 'リクエストログを空にしています...',
         'empty_success' => 'リクエストログを空にしました。',

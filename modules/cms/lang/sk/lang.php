@@ -37,7 +37,7 @@ return [
     ],
     'page' => [
         'not_found' => [
-            'label' => 'Page not found',
+            'label' => 'Page Not Found',
             'help' => 'The requested page cannot be found.'
         ],
         'custom_error' => [
