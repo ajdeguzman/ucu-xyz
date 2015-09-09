@@ -74,7 +74,7 @@ class __TwigTemplate_b1e65c594de40879efa698f0e8957c5dfbbbb1644631d9bbd22de1c15ce
                                         <a  href=\"";
         // line 26
         echo $this->env->getExtension('CMS')->pageFilter("home");
-        echo "\" class=\"navbar-brand\" title=\"UCU\" rel=\"home\">
+        echo "/\" class=\"navbar-brand\" title=\"UCU\" rel=\"home\">
                                         <span class=\"navbar-brand-blue\"><img alt=\"UCU\" src='";
         // line 27
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/ucu_logo.png");
@@ -94,7 +94,10 @@ class __TwigTemplate_b1e65c594de40879efa698f0e8957c5dfbbbb1644631d9bbd22de1c15ce
                                         <nav id=\"primary-nav\" role=\"navigation\">
                                             <ul class=\"nav navbar-nav\">
                                                     <li>
-                                                        <a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">Home</a>
+                                                        <a  href=\"";
+        // line 40
+        echo $this->env->getExtension('CMS')->pageFilter("home");
+        echo "/\" style=\"font-weight:600\">Home</a>
                                                     </li>
                                                     <li class=\"dropdown yamm-fw\">
                                                         <a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">About <b class=\"caret\"></b></a>
@@ -179,7 +182,10 @@ class __TwigTemplate_b1e65c594de40879efa698f0e8957c5dfbbbb1644631d9bbd22de1c15ce
                                                                             <div class=\"subnav\">
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
-                                                                                        <li><a href=\"/admission/application-procedures\" aria-describedby=\"campus-life\" class=\"\">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href=\"";
+        // line 101
+        echo $this->env->getExtension('CMS')->pageFilter("home");
+        echo "/admission/application-procedures\" aria-describedby=\"campus-life\" class=\"\">Application and Enrolment Procedures</a></li>
                                                                                         <li><a href=\"";
         // line 102
         echo $this->env->getExtension('CMS')->pageFilter("home");
@@ -417,6 +423,6 @@ class __TwigTemplate_b1e65c594de40879efa698f0e8957c5dfbbbb1644631d9bbd22de1c15ce
 
     public function getDebugInfo()
     {
-        return array (  403 => 252,  399 => 251,  392 => 250,  384 => 244,  382 => 225,  377 => 222,  373 => 221,  367 => 217,  365 => 216,  350 => 204,  346 => 203,  326 => 186,  322 => 185,  318 => 184,  314 => 183,  308 => 180,  304 => 179,  299 => 177,  266 => 147,  262 => 146,  258 => 145,  254 => 144,  248 => 141,  244 => 140,  240 => 139,  236 => 138,  203 => 108,  199 => 107,  193 => 104,  189 => 103,  185 => 102,  151 => 71,  147 => 70,  143 => 69,  139 => 68,  133 => 65,  129 => 64,  125 => 63,  121 => 62,  84 => 28,  80 => 27,  76 => 26,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  46 => 12,  43 => 11,  39 => 10,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  409 => 252,  405 => 251,  398 => 250,  390 => 244,  388 => 225,  383 => 222,  379 => 221,  373 => 217,  371 => 216,  356 => 204,  352 => 203,  332 => 186,  328 => 185,  324 => 184,  320 => 183,  314 => 180,  310 => 179,  305 => 177,  272 => 147,  268 => 146,  264 => 145,  260 => 144,  254 => 141,  250 => 140,  246 => 139,  242 => 138,  209 => 108,  205 => 107,  199 => 104,  195 => 103,  191 => 102,  187 => 101,  154 => 71,  150 => 70,  146 => 69,  142 => 68,  136 => 65,  132 => 64,  128 => 63,  124 => 62,  99 => 40,  84 => 28,  80 => 27,  76 => 26,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  46 => 12,  43 => 11,  39 => 10,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
     }
 }

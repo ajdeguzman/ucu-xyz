@@ -2,8 +2,8 @@
 
 return [
     'app' => [
-        'name' => 'October CMS',
-        'tagline' => 'Getting back to basics'
+        'name' => 'UCU Administrator',
+        'tagline' => 'UCU Administrator'
     ],
     'locale' => [
         'en' => 'English',

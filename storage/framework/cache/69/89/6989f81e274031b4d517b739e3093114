@@ -1,4 +1,4 @@
-1441756097s:47185:"a:6:{s:5:"mtime";i:1441755491;s:7:"content";s:23511:"description = "Default layout"
+1441813733s:47211:"a:6:{s:5:"mtime";i:1441806133;s:7:"content";s:23524:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -25,7 +25,7 @@
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <h1>
-                                        <a  href="{{ 'home'|page }}" class="navbar-brand" title="UCU" rel="home">
+                                        <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
                                         <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo.png"|theme }}'></span>
                                         <span class="navbar-brand-white"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
                                         </a>
@@ -39,7 +39,7 @@
                                         <nav id="primary-nav" role="navigation">
                                             <ul class="nav navbar-nav">
                                                     <li>
-                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
+                                                        <a  href="{{ 'home'|page }}/" style="font-weight:600">Home</a>
                                                     </li>
                                                     <li class="dropdown yamm-fw">
                                                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">About <b class="caret"></b></a>
@@ -100,7 +100,7 @@
                                                                             <div class="subnav">
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6"><ul class="list-unstyled">
-                                                                                        <li><a href="/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/scholarships" class="">Scholarship Grants</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/graduates" class="">Graduate</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/undergraduates" class="">Undergraduate</a></li>
@@ -253,7 +253,7 @@
         {% scripts %}
 
     </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23475:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23488:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -278,7 +278,7 @@
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <h1>
-                                        <a  href="{{ 'home'|page }}" class="navbar-brand" title="UCU" rel="home">
+                                        <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
                                         <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo.png"|theme }}'></span>
                                         <span class="navbar-brand-white"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
                                         </a>
@@ -292,7 +292,7 @@
                                         <nav id="primary-nav" role="navigation">
                                             <ul class="nav navbar-nav">
                                                     <li>
-                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
+                                                        <a  href="{{ 'home'|page }}/" style="font-weight:600">Home</a>
                                                     </li>
                                                     <li class="dropdown yamm-fw">
                                                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">About <b class="caret"></b></a>
@@ -353,7 +353,7 @@
                                                                             <div class="subnav">
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6"><ul class="list-unstyled">
-                                                                                        <li><a href="/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/scholarships" class="">Scholarship Grants</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/graduates" class="">Graduate</a></li>
                                                                                         <li><a href="{{ 'home'|page }}/admission/undergraduates" class="">Undergraduate</a></li>

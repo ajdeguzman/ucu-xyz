@@ -684,7 +684,7 @@ body.mainmenu-open .mainmenu-collapsed ul{position:fixed;left:0;top:10px;bottom:
 @media (min-width:770px){#layout-canvas{position:static !important}
 .mainmenu-collapsed{display:none !important}
 }
-#layout-sidenav{background-color:#34495e;position:absolute;height:100%;width:100%;padding:10px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#layout-sidenav{background-color:#268852;position:absolute;height:100%;width:100%;padding:10px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 #layout-sidenav ul{position:relative;margin:0;padding:0;height:100%;overflow:hidden}
 #layout-sidenav ul li{display:block;text-align:center;position:relative}
 #layout-sidenav ul li a{padding:13px;display:block;font-size:12px;color:rgba(255,255,255,0.35);font-weight:normal}
@@ -726,7 +726,7 @@ body.display-side-panel #layout-side-panel{display:block;position:absolute;z-ind
 #layout-footer .brand .logo{margin:0 10px}
 #layout-footer .tagline{float:right}
 #layout-footer .tagline p{color:#999999}
-body.outer{background:#2b3e50}
+body.outer{background:#268852}
 body.outer .layout > .layout-row.layout-head{text-align:center;background:#096D36}
 body.outer .layout > .layout-row.layout-head > .layout-cell{height:300px !important;padding:50px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:middle}
 body.outer .layout > .layout-row.layout-head > .layout-cell h1.oc-logo-white{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;display:inline-block;width:100%;max-width:410px;height:72px}
@@ -737,7 +737,7 @@ body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizonta
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form input{vertical-align:top;margin-right:9px;display:inline-block;border:none;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form input.width-1{width:160px}
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form input.width-2{width:323px}
-body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form button{background:#0181b9;text-align:center;font-size:13px;font-weight:600;height:40px;vertical-align:top;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form button{background:#12774D;text-align:center;font-size:13px;font-weight:600;height:40px;vertical-align:top;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .horizontal-form button.login-button{display:inline-block;width:98px}
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .forgot-password{margin-top:30px;font-size:13px;top:8px}
 body.outer .layout > .layout-row > .layout-cell .outer-form-container .forgot-password a{color:rgba(255,255,255,0.44)}
@@ -868,3 +868,4 @@ html.cssanimations .fancy-layout .form-tabless-fields .loading-indicator-contain
 .flyout-toggle:hover i{color:#ffffff}
 body.flyout-visible{overflow:hidden}
 body.flyout-visible .flyout-overlay{background-color:rgba(0,0,0,0.3)}
+

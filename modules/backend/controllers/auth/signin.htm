@@ -1,45 +1,27 @@
 <h2><?= e(Backend\Models\BrandSettings::get('app_tagline')) ?></h2>
-
 <?= Form::open() ?>
-    <input type="hidden" name="postback" value="1" />
-
-    <div class="form-elements" role="form">
-        <div class="form-group text-field horizontal-form october">
-
-            <!-- Login -->
-            <input
-                type="text"
-                name="login"
-                value="<?= e(post('login')) ?>"
-                class="form-control width-1 icon user"
-                placeholder="<?= e(trans('backend::lang.account.login_placeholder')) ?>"
-                autocomplete="off"
-                maxlength="255" />
-
-            <!-- Password -->
-            <input
-                type="password"
-                name="password"
-                value=""
-                class="form-control width-1 icon lock"
-                placeholder="<?= e(trans('backend::lang.account.password_placeholder')) ?>"
-                autocomplete="off"
-                maxlength="255" />
-
-                <!-- Submit Login -->
-                <button type="submit" class="btn btn-primary login-button">
+<input type="hidden" name="postback" value="1" />
+<div class="form-elements" role="form">
+    <div class="form-group text-field horizontal-form october">
+            <div class="card card-container">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <p id="profile-name" class="profile-name-card"></p>
+                <div class="form-signin">
+                    <span id="reauth-email" class="reauth-email"></span>
+                    <input type="text" autocomplete="off" name = "login" maxlength="255" value="<?= e(post('login')) ?>" id="inputEmail" class="form-control icon user" placeholder="<?= e(trans('backend::lang.account.login_placeholder')) ?>"  autofocus>
+                    <input type="password" autocomplete="off" name="password" maxlength="255" value="" id="inputPassword" class="form-control icon lock" placeholder="<?= e(trans('backend::lang.account.password_placeholder')) ?>" >
+                    <div id="remember" class="checkbox">
+                        &nbsp;
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary btn-block btn-signin">
                     <?= e(trans('backend::lang.account.login')) ?>
-                </button>
-        </div>
-
-        <p class="oc-icon-lock pull-right forgot-password">
-            <!-- Forgot your password? -->
-            <a href="<?= Backend::url('backend/auth/restore') ?>" class="text-muted">
-                <?= e(trans('backend::lang.account.forgot_password')) ?>
-            </a>
-        </p>
-
-    </div>
-<?= Form::close() ?>
-
-<?= $this->fireViewEvent('backend.auth.extendSigninView') ?>
+                    </button>
+                    </div><!-- /form -->
+                    <a href="<?= Backend::url('backend/auth/restore') ?>" class="text-muted forgot-password">
+                    <?= e(trans('backend::lang.account.forgot_password')) ?>
+                    </a>
+                    </div><!-- /card-container -->
+                </div>
+            </div>
+            <?= Form::close() ?>
+            <?= $this->fireViewEvent('backend.auth.extendSigninView') ?>

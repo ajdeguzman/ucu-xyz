@@ -1,9 +1,9 @@
-1441756097s:2561:"a:6:{s:5:"mtime";i:1441554438;s:7:"content";s:1196:"title = "Error page (500)"
+1441813733s:2651:"a:6:{s:5:"mtime";i:1441806133;s:7:"content";s:1243:"title = "Error page (500)"
 url = "/error"
 ==
 <html>
     <head>
-        <title>Error 404 - Page not found</title>
+        <title>Error 404 - Page Not Found</title>
 
         <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
@@ -45,9 +45,9 @@ url = "/error"
         </div>
     </body>
 </html>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:3:{s:5:"title";s:16:"Error page (500)";s:3:"url";s:6:"/error";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1150:"<html>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:3:{s:5:"title";s:16:"Error page (500)";s:3:"url";s:6:"/error";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1193:"<html>
     <head>
-        <title>Error 404 - Page not found</title>
+        <title>Error 404 - Page Not Found</title>
 
         <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
