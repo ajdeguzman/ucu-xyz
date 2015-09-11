@@ -1,0 +1,509 @@
+1441879016s:47055:"a:6:{s:5:"mtime";i:1441877136;s:7:"content";s:23446:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ this.page.title }} | Urdaneta City University</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Urdaneta City University">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.ico'|theme }}" />
+        {% styles %}
+        <link href='{{ "assets/css/bootstrap.css"|theme }}' rel="stylesheet">
+        <link href='{{ "assets/css/theme.css"|theme }}' rel="stylesheet">
+        <link href='{{ "assets/css/yamm.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <link href='{{ "assets/css/font.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <link href='{{ "assets/css/timeline.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+                    <header id="site-header" class="light">
+                            <div class="navbar navbar-default navbar-static-top yamm">
+                                <div class="container">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <h1>
+                                        <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
+                                        <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo.png"|theme }}'></span>
+                                        <span class="navbar-brand-white"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
+                                        </a>
+                                        </h1>
+                             <button class="menu-button navbar-toggle" id="menuButton" data-toggle="collapse" data-target="#main-nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="burger-icon"></span>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="main-nav">
+                                        <nav id="primary-nav" role="navigation">
+                                            <ul class="nav navbar-nav">
+                                                    <li>
+                                                        <a  href="{{ 'home'|page }}/" style="font-weight:600">Home</a>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/history" class="">History</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/vmgo" class="">Vision &amp; Mission</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/administration" class="">Administration</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/university-hymn" class="">University Hymn</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/highlights" class="">UCU Highlights</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/campus-map" class="">Campus Map</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/seal-and-symbols" class="">UCU Seal & Symbols</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/contact-us" class="">Contact Us</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Admissions <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/scholarships" class="">Scholarship Grants</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/graduates" class="">Graduate</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/undergraduates" class="">Undergraduate</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/admission/law" class="">Law</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/entrance-examination" class="">Entrance Examination</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Academics <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/academics/graduate-school" aria-describedby="campus-life" class="">Graduate School</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/colleges" class="">Colleges</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/cpd" class="">Center for Continuing and Professional Development</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/research-extensions" class="">Research &amp; Extensions</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/academics/faculty-profile" class="">Faculty Profile</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/academic-calendar" class="">Academic Calendar</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/opac" class="">UCU OPAC</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/library" class="">Libraries</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Campus Life <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/student-development" aria-describedby="campus-life" class="">Student Development</a></li>
+                                                                                        <li><a href="/campus-life/guidance-counseling" class="">Guidance and Counseling</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/student-organizations" class="">Student Organizations</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/arts-culture" class="">Arts &amp; Culture</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/civic-welfare" class="">Civil Welfare</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/athletics" class="">Athletics</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/publications" class="">Publications</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+
+                                            </ul>
+                                            </nav><!-- /.primary-nav -->
+                                            <div id="audience-nav">
+                                                <div class="">
+                                                    <h3 class="visible-xs">More</h3>
+                                                    <ul class="nav navbar-nav">
+                                                        <li><a href="{{ 'home'|page }}/students">Students</a></li>
+                                                        <li><a href="{{ 'home'|page }}/faculty">Faculty &amp; Staff</a></li>
+                                                        <li><a href="http://alumni.ucu.edu/">Alumni</a></li>
+                                                        <li><a href="http://my.ucu.edu/">MyUCU</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div><!-- /.navbar-collapse -->
+                                            </div><!-- /.container -->
+                                        </div>
+                                    </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ [
+            'assets/javascript/jquery.js',
+            'assets/vendor/bootstrap/js/transition.js',
+            'assets/vendor/bootstrap/js/alert.js',
+            'assets/vendor/bootstrap/js/button.js',
+            'assets/vendor/bootstrap/js/carousel.js',
+            'assets/vendor/bootstrap/js/collapse.js',
+            'assets/vendor/bootstrap/js/dropdown.js',
+            'assets/vendor/bootstrap/js/modal.js',
+            'assets/vendor/bootstrap/js/tooltip.js',
+            'assets/vendor/bootstrap/js/popover.js',
+            'assets/vendor/bootstrap/js/scrollspy.js',
+            'assets/vendor/bootstrap/js/tab.js',
+            'assets/vendor/bootstrap/js/affix.js',
+            'assets/javascript/app.js',
+            'assets/javascript/bootstrap.js',
+            'assets/javascript/modernizr.js',
+            'assets/javascript/easing.js',
+            'assets/javascript/move-top.js',
+            'assets/javascript/main.js']|theme }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+   </script>
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23410:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ this.page.title }} | Urdaneta City University</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Urdaneta City University">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.ico'|theme }}" />
+        {% styles %}
+        <link href='{{ "assets/css/bootstrap.css"|theme }}' rel="stylesheet">
+        <link href='{{ "assets/css/theme.css"|theme }}' rel="stylesheet">
+        <link href='{{ "assets/css/yamm.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <link href='{{ "assets/css/font.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <link href='{{ "assets/css/timeline.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+                    <header id="site-header" class="light">
+                            <div class="navbar navbar-default navbar-static-top yamm">
+                                <div class="container">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <h1>
+                                        <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
+                                        <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo.png"|theme }}'></span>
+                                        <span class="navbar-brand-white"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
+                                        </a>
+                                        </h1>
+                             <button class="menu-button navbar-toggle" id="menuButton" data-toggle="collapse" data-target="#main-nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="burger-icon"></span>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="main-nav">
+                                        <nav id="primary-nav" role="navigation">
+                                            <ul class="nav navbar-nav">
+                                                    <li>
+                                                        <a  href="{{ 'home'|page }}/" style="font-weight:600">Home</a>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/history" class="">History</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/vmgo" class="">Vision &amp; Mission</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/administration" class="">Administration</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/university-hymn" class="">University Hymn</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/highlights" class="">UCU Highlights</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/campus-map" class="">Campus Map</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/seal-and-symbols" class="">UCU Seal & Symbols</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/about-ucu/contact-us" class="">Contact Us</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Admissions <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/admission/application-procedures" aria-describedby="campus-life" class="">Application and Enrolment Procedures</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/scholarships" class="">Scholarship Grants</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/graduates" class="">Graduate</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/undergraduates" class="">Undergraduate</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/admission/law" class="">Law</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/admission/entrance-examination" class="">Entrance Examination</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Academics <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/academics/graduate-school" aria-describedby="campus-life" class="">Graduate School</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/colleges" class="">Colleges</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/cpd" class="">Center for Continuing and Professional Development</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/research-extensions" class="">Research &amp; Extensions</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/academics/faculty-profile" class="">Faculty Profile</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/academic-calendar" class="">Academic Calendar</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/opac" class="">UCU OPAC</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/academics/library" class="">Libraries</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                    <li class="dropdown yamm-fw">
+                                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Campus Life <b class="caret"></b></a>
+                                                        <ul class="dropdown-menu">
+                                                           <li>
+                                                                <div class="yamm-content">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-7">
+                                                                            <div class="caption hidden-xs">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6">
+                                                                                        <img src="http://placehold.it/249x166" alt="">
+                                                                                    </div>
+                                                                                    <div class="col-sm-6"><div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vel, sit eligendi. Consectetur enim accusamus dolores architecto sed itaque </p></div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-5">
+                                                                            <div class="subnav">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/student-development" aria-describedby="campus-life" class="">Student Development</a></li>
+                                                                                        <li><a href="/campus-life/guidance-counseling" class="">Guidance and Counseling</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/student-organizations" class="">Student Organizations</a></li>
+                                                                                    </ul></div>
+                                                                                    <div class="col-sm-6"><ul class="list-unstyled">
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/arts-culture" class="">Arts &amp; Culture</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/civic-welfare" class="">Civil Welfare</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/athletics" class="">Athletics</a></li>
+                                                                                        <li><a href="{{ 'home'|page }}/campus-life/publications" class="">Publications</a></li>
+                                                                                    </ul></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+
+                                            </ul>
+                                            </nav><!-- /.primary-nav -->
+                                            <div id="audience-nav">
+                                                <div class="">
+                                                    <h3 class="visible-xs">More</h3>
+                                                    <ul class="nav navbar-nav">
+                                                        <li><a href="{{ 'home'|page }}/students">Students</a></li>
+                                                        <li><a href="{{ 'home'|page }}/faculty">Faculty &amp; Staff</a></li>
+                                                        <li><a href="http://alumni.ucu.edu/">Alumni</a></li>
+                                                        <li><a href="http://my.ucu.edu/">MyUCU</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div><!-- /.navbar-collapse -->
+                                            </div><!-- /.container -->
+                                        </div>
+                                    </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ [
+            'assets/javascript/jquery.js',
+            'assets/vendor/bootstrap/js/transition.js',
+            'assets/vendor/bootstrap/js/alert.js',
+            'assets/vendor/bootstrap/js/button.js',
+            'assets/vendor/bootstrap/js/carousel.js',
+            'assets/vendor/bootstrap/js/collapse.js',
+            'assets/vendor/bootstrap/js/dropdown.js',
+            'assets/vendor/bootstrap/js/modal.js',
+            'assets/vendor/bootstrap/js/tooltip.js',
+            'assets/vendor/bootstrap/js/popover.js',
+            'assets/vendor/bootstrap/js/scrollspy.js',
+            'assets/vendor/bootstrap/js/tab.js',
+            'assets/vendor/bootstrap/js/affix.js',
+            'assets/javascript/app.js',
+            'assets/javascript/bootstrap.js',
+            'assets/javascript/modernizr.js',
+            'assets/javascript/easing.js',
+            'assets/javascript/move-top.js',
+            'assets/javascript/main.js']|theme }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+   </script>
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>";}";

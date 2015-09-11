@@ -1,0 +1,33 @@
+1441869695s:1449:"a:6:{s:5:"mtime";i:1441858007;s:7:"content";s:645:"[viewBag]
+==
+<div class="col-sm-4">
+    <div id="sidebar">
+        <!-- Sidebar -->
+        <section>
+            <h2>Contents</h2>
+            <ul class="sidebar-list">
+                <li><a href="application-procedures">Application Procedures</a></li>
+                <li><a href="scholarships">Scholarships</a></li>
+                <li><a href="graduates">Graduate</a></li>
+                <li><a href="undergraduates">Undergraduate</a></li>
+                <li><a href="law">Law</a></li>
+                <li><a href="entrance-examination">Entrance Examination</a></li>
+            </ul>
+        </section>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:7:"viewBag";a:0:{}}}s:4:"code";N;s:6:"markup";s:630:"<div class="col-sm-4">
+    <div id="sidebar">
+        <!-- Sidebar -->
+        <section>
+            <h2>Contents</h2>
+            <ul class="sidebar-list">
+                <li><a href="application-procedures">Application Procedures</a></li>
+                <li><a href="scholarships">Scholarships</a></li>
+                <li><a href="graduates">Graduate</a></li>
+                <li><a href="undergraduates">Undergraduate</a></li>
+                <li><a href="law">Law</a></li>
+                <li><a href="entrance-examination">Entrance Examination</a></li>
+            </ul>
+        </section>
+    </div>
+</div>";}";

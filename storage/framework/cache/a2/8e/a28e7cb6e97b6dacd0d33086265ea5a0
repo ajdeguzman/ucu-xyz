@@ -1,0 +1,38 @@
+1441879016s:1352:"a:6:{s:5:"mtime";i:1441876150;s:7:"content";s:586:"title = "Highlights"
+url = "/about-ucu/highlights"
+layout = "default"
+is_hidden = "0"
+==
+<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>UCU Highlights</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+
+                    </div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:10:"Highlights";s:3:"url";s:21:"/about-ucu/highlights";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:492:"<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>UCU Highlights</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+
+                    </div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+    </div>
+</div>";}";

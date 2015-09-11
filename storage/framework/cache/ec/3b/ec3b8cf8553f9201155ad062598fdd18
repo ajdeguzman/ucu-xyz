@@ -1,0 +1,82 @@
+1441879016s:4012:"a:6:{s:5:"mtime";i:1441876205;s:7:"content";s:1915:"title = "University Hymn"
+url = "/about-ucu/university-hymn"
+layout = "default"
+is_hidden = "0"
+==
+<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>UCU Hymn</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+                        <article>
+                            <h3>UCU Hymn</h3>
+                            <p>Dr. William Hollis</p>
+                            <p>
+                                <p>Let's praise our dear alma mater</p>
+                                <p>With Gratefulness and sincerity</p>
+                                <p>Urdaneta City University</p>
+                                <p>Shine brightly in the sky</p>
+                                <p>We give to you our loyalty</p>
+                                <p>We will support and stand by you</p>
+                                <p>Your noble cause will be remembered</p>
+                                <p>We will carry on forever more!</p>
+                                <p>Your light will always shine</p>
+                                <p>In our hearts</p>
+                                <p>Your legacy we will sing</p>
+                                <p>We will proclaim your mission and vision</p>
+                                <p>To our city you are a blessing</p>
+                                <p>Coda:</p>
+                                <p>UCU, we dedicate to you</p>
+                                <p>Our commitment for we love you!</p>
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:15:"University Hymn";s:3:"url";s:26:"/about-ucu/university-hymn";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1811:"<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>UCU Hymn</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+                        <article>
+                            <h3>UCU Hymn</h3>
+                            <p>Dr. William Hollis</p>
+                            <p>
+                                <p>Let's praise our dear alma mater</p>
+                                <p>With Gratefulness and sincerity</p>
+                                <p>Urdaneta City University</p>
+                                <p>Shine brightly in the sky</p>
+                                <p>We give to you our loyalty</p>
+                                <p>We will support and stand by you</p>
+                                <p>Your noble cause will be remembered</p>
+                                <p>We will carry on forever more!</p>
+                                <p>Your light will always shine</p>
+                                <p>In our hearts</p>
+                                <p>Your legacy we will sing</p>
+                                <p>We will proclaim your mission and vision</p>
+                                <p>To our city you are a blessing</p>
+                                <p>Coda:</p>
+                                <p>UCU, we dedicate to you</p>
+                                <p>Our commitment for we love you!</p>
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+    </div>
+</div>";}";

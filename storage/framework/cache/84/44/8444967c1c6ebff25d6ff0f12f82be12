@@ -1,0 +1,42 @@
+1441879016s:2225:"a:6:{s:5:"mtime";i:1441876122;s:7:"content";s:1022:"title = "Contact Us"
+url = "/about-ucu/contact-us"
+layout = "default"
+is_hidden = "0"
+==
+<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>Contact Us</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="lead">The UCU public website is maintained by the College of Computer Studies Solutions. We strive to keep the content on this site accurate and accessible.
+                    </p>
+                    <div class="basic_content"><p>If you have questions or comments regarding the content, design, or accessibility of this website, please contact us:</p>
+                    <p>  Email: <a href="mailto:info@ucu.edu.ph">info@ucu.edu.ph</a></p></div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+        <section class="page-width">
+        </section>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:10:"Contact Us";s:3:"url";s:21:"/about-ucu/contact-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:928:"<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>Contact Us</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="lead">The UCU public website is maintained by the College of Computer Studies Solutions. We strive to keep the content on this site accurate and accessible.
+                    </p>
+                    <div class="basic_content"><p>If you have questions or comments regarding the content, design, or accessibility of this website, please contact us:</p>
+                    <p>  Email: <a href="mailto:info@ucu.edu.ph">info@ucu.edu.ph</a></p></div>
+                </div>
+                {% partial "sidebar-about" %}
+            </div>
+        </div>
+        <section class="page-width">
+        </section>
+    </div>";}";

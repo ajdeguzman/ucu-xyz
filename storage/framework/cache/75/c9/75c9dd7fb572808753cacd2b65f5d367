@@ -1,0 +1,38 @@
+1441879016s:1420:"a:6:{s:5:"mtime";i:1441857929;s:7:"content";s:620:"title = "Scholarship Grants"
+url = "/admission/scholarships"
+layout = "default"
+is_hidden = "0"
+==
+<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>Scholarships</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+                      
+                    </div>
+                </div>
+                {% partial "sidebar-admission" %}
+            </div>
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:18:"Scholarship Grants";s:3:"url";s:23:"/admission/scholarships";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:516:"<div id="content" role="main">
+    <section class="page-header">
+        <div class="container"><h1>Scholarships</h1></div>
+    </section>
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="content skel-cell-important">
+                      
+                    </div>
+                </div>
+                {% partial "sidebar-admission" %}
+            </div>
+        </div>
+    </div>
+</div>";}";

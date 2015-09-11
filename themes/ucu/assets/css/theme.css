@@ -113,9 +113,6 @@ article > h2 {
   left: 0;
   right: 0;
 }
-h1,h2,h3,h4,h5,h6{
-  margin:0;        
-}
 p{
   margin-bottom: 3em;
   margin: 0 0 10px;
@@ -153,11 +150,11 @@ padding:0;
   margin: 0 0 20px;
   border-bottom: none;
   padding-top: 17px;
-  background-color: #ABA9A9;
+  background-image: url('{{ "assets/images/lines-bg.png"|theme }}');
 }
 .page-header h1 {
   font-size: 52px;
-  color: #fff;
+  color: #12834F;
   margin: 0;
 }
 .logo {
@@ -255,44 +252,6 @@ ul.nav.navbar-nav {
 .grid__item.color-11:hover {
   box-sizing: 0;
   border-top: 0 !important;
-}
-/*--slider end here--*/
-.banner{
-    background-color: #016155;
-}
-.banner-left {
-  padding: 0 !important;
-}
-.banner-slide{
-  min-height: 500px;
-  position: relative;
-  background:url('../images/slider_1.png')no-repeat 0px 0px;
-  background-size:cover;
-}
-.banner1{
-  background:url('../images/slider_2.png')no-repeat 0px 0px;
-  background-size:cover; 
-  min-height: 500px;
-  position: relative;
-}
-.banner2{
-  background:url('../images/slider_3.png')no-repeat 0px 0px;
-  background-size:cover;
-  min-height: 500px;
-  position: relative;
-}
-.banner-right {
-  padding: 1em 0 1em 2em;
-}
-.banner-right h1 {
-  font-size: 2.5em;
-  font-weight: 400;
-  color: #000;
-}
-.banner-right p {
-  font-size: 1em;
-  color: #555;
-  margin: 1em 0 2em;
 }
 /*----Slider Part starts Here-----*/
 .header-top{
