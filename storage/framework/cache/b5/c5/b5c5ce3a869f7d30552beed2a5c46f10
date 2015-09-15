@@ -1,4 +1,4 @@
-1441879016s:20807:"a:6:{s:5:"mtime";i:1441870120;s:7:"content";s:10221:"title = "Home"
+1442331446s:20326:"a:6:{s:5:"mtime";i:1442225808;s:7:"content";s:9984:"title = "Home"
 url = "/"
 layout = "default"
 is_hidden = "0"
@@ -28,33 +28,33 @@ chancetoshowarrow = "2"
 autocenterarrow = "2"
 stepsarrow = "1"
 ==
+<?php
+use Indikator\News\Models\Post;
+
+function onStart(){
+    $this['posts'] = Post::isPublished()->orderBy('published_at', 'desc')->take(2)->get();
+}
+?>
+==
 <div class="banner">
     <div class="container-fluids">
         {% component 'advanced' %}
     </div>
             <div class="clearfix"> </div>
         </div>
-
-
         <div class="news-events">
             <div class="container">
                 <section class="component-row"><div class="container"><div class="row outer">
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
+                     {% for post in posts %}
+                            <div class="col-sm-4">
+                                <div class="block block-thumbnail">
+                                    <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                                    <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                                    <div class="caption-news"><h4>{{ post.title }}</h4></div>
+                                    </a>
+                                </div>
+                            </div>
+                     {% endfor %}
                     <div class="col-sm-4">
                         <div class="block events-list">
                             <h3 class="block-header">Events</h3>
@@ -183,33 +183,31 @@ stepsarrow = "1"
                     </div>
                     </div>
             </div>
-    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:4:"true";s:8:"fillmode";s:1:"2";s:11:"transaction";s:1:"2";s:16:"autoplayinterval";s:5:"10000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:4:"true";s:13:"slideduration";s:3:"400";s:13:"mindragoffset";s:1:"0";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"3";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:2:"20";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"2";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:9684:"<div class="banner">
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:4:"true";s:8:"fillmode";s:1:"2";s:11:"transaction";s:1:"2";s:16:"autoplayinterval";s:5:"10000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:4:"true";s:13:"slideduration";s:3:"400";s:13:"mindragoffset";s:1:"0";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"3";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:2:"20";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"2";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}s:4:"code";s:153:"
+use Indikator\News\Models\Post;
+
+function onStart(){
+    $this['posts'] = Post::isPublished()->orderBy('published_at', 'desc')->take(2)->get();
+}
+";s:6:"markup";s:9281:"<div class="banner">
     <div class="container-fluids">
         {% component 'advanced' %}
     </div>
             <div class="clearfix"> </div>
         </div>
-
-
         <div class="news-events">
             <div class="container">
                 <section class="component-row"><div class="container"><div class="row outer">
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
+                     {% for post in posts %}
+                            <div class="col-sm-4">
+                                <div class="block block-thumbnail">
+                                    <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                                    <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                                    <div class="caption-news"><h4>{{ post.title }}</h4></div>
+                                    </a>
+                                </div>
+                            </div>
+                     {% endfor %}
                     <div class="col-sm-4">
                         <div class="block events-list">
                             <h3 class="block-header">Events</h3>

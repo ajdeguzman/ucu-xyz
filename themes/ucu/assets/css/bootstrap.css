@@ -1110,7 +1110,7 @@ input, button, select, textarea {
 }
 
 a {
-    color: #016155;
+    color: #009688;
     text-decoration: none
 }
 
@@ -1136,7 +1136,7 @@ img {
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -6489,7 +6489,7 @@ button.close {
 header#site-header {
     position: relative;
     z-index: 999;
-    border-top: 4px solid #016155;
+    border-top: 4px solid #00796B;
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2)
 }
@@ -6552,7 +6552,7 @@ header#site-header .navbar {
 }
 
 header#site-header .navbar.navbar-default {
-    background-color: #fff
+    background-color: #009688
 }
 
 header#site-header .navbar-brand-blue {
@@ -6623,7 +6623,7 @@ header#site-header #primary-nav ul.navbar-nav>li>a {
     font-size: 18px;
     padding-top: 15px;
     font-weight: 400;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eefe
 }
 
 header#site-header .dropdown:hover .dropdown-menu {}
@@ -7082,7 +7082,7 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
     }
     header#site-header #primary-nav .open .dropdown-menu {}
     header#site-header {
-        border-top: 42px solid #016155
+        border-top: 42px solid #00796B;
     }
     header#site-header.dark {
         border-top-color: #00274E
@@ -7119,8 +7119,8 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
     }
     header#site-header #primary-nav ul.navbar-nav>li>a:hover, header#site-header #primary-nav ul.navbar-nav>li>a:focus, footer#site-footer .nav>li>a:hover, footer#site-footer .nav>li>a:focus {
         background: transparent;
-        color: #829db5;
-        /* border-bottom-color: #C0CAD3 */
+        color: #89C8C2;
+        border-bottom-color: #89C8C2
     }
     header#site-header.dark #primary-nav ul.navbar-nav>li>a:hover, header#site-header.dark #primary-nav ul.navbar-nav>li>a:focus, footer#site-footer.dark .nav>li>a:hover, footer#site-footer.dark .nav>li>a:focus {
         background: transparent;
@@ -7219,7 +7219,7 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
     }
     header#site-header #audience-nav .navbar-nav>li>a {
         font-size: 11px;
-        color: #fff;
+        color: #89C8C2;
         border-bottom: none;
         padding-top: 11px;
         line-height: 20px;
@@ -7241,7 +7241,7 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
         margin: 10px 15px;
         padding: 0;
         border-bottom: 2px solid transparent;
-        color: #555
+        color: #fff
     }
     header#site-header #primary-nav ul.navbar-nav>li>a.dropdown-toggle {
         font-weight: 600;
@@ -7412,7 +7412,7 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
     }
     header#site-header #audience-nav .navbar-nav>li>a {
         font-size: 12px;
-        color: #fff;
+        color: #89C8C2;
         border-bottom: none;
         padding-top: 11px;
         line-height: 20px;
@@ -8307,7 +8307,7 @@ blockquote footer {
         font-size: 24px
     }
     h4 {
-        font-size: 18px
+        font-size: 18px;
     }
     h5 {
         font-size: 14px

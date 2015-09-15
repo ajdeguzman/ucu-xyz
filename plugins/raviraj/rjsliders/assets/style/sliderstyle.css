@@ -25,38 +25,3 @@
 .load{
 	background: url(../images/loading.gif) no-repeat center center;
 }
-.carousel-caption-slider.right-top {
-    right: 18px;
-    left: inherit;
-    top: 18px;
-    bottom: inherit;
-}
-.carousel-caption-slider.bg-white {
-    background-color: #f2f1eb;
-    opacity: .9;
-}
-.carousel-caption-slider {
-    width: 500px;
-    position: absolute;
-    bottom: 18px;
-    left: 18px;
-    top: inherit;
-    right: inherit;
-    text-align: left;
-    text-shadow: none;
-    color: inherit;
-    padding: 15px 20px;
-}
-.carousel-caption-slider h3 {
-    font-size: 2.5em;
-    font-weight: 400;
-    line-height: 1em;
-    letter-spacing: -1px;
-    margin: 0 0 10px 0;
-}
-@media screen and (min-width: 768px)
-.carousel-caption-slider {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 30px;
-}

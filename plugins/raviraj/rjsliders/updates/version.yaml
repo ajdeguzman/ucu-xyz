@@ -11,3 +11,9 @@
 - Slider loading issue fixed.
 1.0.6:
 - Added compatibility for latest version of OctoberCMS.
+1.0.7:
+- Fix showing permissions
+1.0.8:
+- Add CS locale
+1.0.9:
+- Use checkboxes for boolean values

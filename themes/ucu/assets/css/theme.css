@@ -16,6 +16,9 @@ body a{
   -o-transition:0.5s all;
   -ms-transition:0.5s all;
 }
+h4 {
+      font-weight: 600 !important;
+}
 /* Sidebar */
 #sidebar {
     margin-left: 1.5em;
@@ -87,13 +90,6 @@ article > h2 {
     line-height: 1em;
     color: #016155;
 }
-
-.caption-news {
-    padding: 0;
-    color: #000;
-    margin-top: 5px;
-    text-align: left;
-}
 .yamm .nav,
 .yamm .collapse,
 .yamm .dropup,
@@ -150,6 +146,7 @@ padding:0;
   margin: 0 0 20px;
   border-bottom: none;
   padding-top: 17px;
+  background-color: #FFF987;
   background-image: url('{{ "assets/images/lines-bg.png"|theme }}');
 }
 .page-header h1 {
@@ -218,7 +215,7 @@ padding:0;
   font-style: bold;
 }
 .nav > li > a:hover {
-  color: #fdb515 !important;
+    color: #89C8C2 !important;
     transition: 1s all;
     -webkit-transition: 1s all;
     -moz-transition: 1s all;
@@ -562,7 +559,6 @@ ul.demo-1.effect li {
 }
 .news-events h3 {
   font-family: 'Merriweather Sans', sans-serif;
-  text-align: center;
   font-size: 3em;
   margin-bottom: 1em;
   color:#016155;
@@ -838,7 +834,7 @@ div#portfoliolist {
 /*--our creative end here--*/
 /*--footer--*/
 .footer {
-  background: #016155;
+  background: #00796B;
   padding: 4em 0px;
 }
 .footet-left h3 {
@@ -2630,7 +2626,7 @@ div#portfoliolist {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #444;
+    background-color: #fff;
     -webkit-transition-property: background-color, -webkit-transform;
     -moz-transition-property: background-color, -moz-transform;
     -o-transition-property: background-color, -o-transform;

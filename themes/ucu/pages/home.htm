@@ -28,33 +28,33 @@ chancetoshowarrow = "2"
 autocenterarrow = "2"
 stepsarrow = "1"
 ==
+<?php
+use Indikator\News\Models\Post;
+
+function onStart(){
+    $this['posts'] = Post::isPublished()->orderBy('published_at', 'desc')->take(2)->get();
+}
+?>
+==
 <div class="banner">
     <div class="container-fluids">
         {% component 'advanced' %}
     </div>
             <div class="clearfix"> </div>
         </div>
-
-
         <div class="news-events">
             <div class="container">
                 <section class="component-row"><div class="container"><div class="row outer">
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="block block-thumbnail">
-                            <a href="http://news.ucu.edu/2015/" class="thumbnail">
-                            <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
-                            <div class="caption-news"><h4>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit.</h4></div>
-                            </a>
-                        </div>
-                    </div>
+                     {% for post in posts %}
+                            <div class="col-sm-4">
+                                <div class="block block-thumbnail">
+                                    <a href="http://news.ucu.edu/2015/" class="thumbnail">
+                                    <img src='{{ "assets/images/events_1.jpg"|theme }}'  alt="">
+                                    <div class="caption-news"><h4>{{ post.title }}</h4></div>
+                                    </a>
+                                </div>
+                            </div>
+                     {% endfor %}
                     <div class="col-sm-4">
                         <div class="block events-list">
                             <h3 class="block-header">Events</h3>

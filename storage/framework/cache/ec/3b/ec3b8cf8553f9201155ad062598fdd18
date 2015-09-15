@@ -1,4 +1,4 @@
-1441879016s:4012:"a:6:{s:5:"mtime";i:1441876205;s:7:"content";s:1915:"title = "University Hymn"
+1442331446s:4012:"a:6:{s:5:"mtime";i:1442301956;s:7:"content";s:1915:"title = "University Hymn"
 url = "/about-ucu/university-hymn"
 layout = "default"
 is_hidden = "0"
@@ -13,7 +13,7 @@ is_hidden = "0"
                 <div class="col-sm-8">
                     <div class="content skel-cell-important">
                         <article>
-                            <h3>UCU Hymn</h3>
+                            <h2>UCU Hymn</h2>
                             <p>Dr. William Hollis</p>
                             <p>
                                 <p>Let's praise our dear alma mater</p>
@@ -51,7 +51,7 @@ is_hidden = "0"
                 <div class="col-sm-8">
                     <div class="content skel-cell-important">
                         <article>
-                            <h3>UCU Hymn</h3>
+                            <h2>UCU Hymn</h2>
                             <p>Dr. William Hollis</p>
                             <p>
                                 <p>Let's praise our dear alma mater</p>
