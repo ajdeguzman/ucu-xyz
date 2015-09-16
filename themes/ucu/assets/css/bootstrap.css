@@ -7412,7 +7412,7 @@ header#site-header.subbrand h1.logo, header#site-header.subbrand .navbar-brand {
     }
     header#site-header #audience-nav .navbar-nav>li>a {
         font-size: 12px;
-        color: #89C8C2;
+        color: #FFF;
         border-bottom: none;
         padding-top: 11px;
         line-height: 20px;
@@ -7985,7 +7985,7 @@ section.dark {
         width: 65.95744680851064%;
         font-weight: 600;
         margin: 40px 0 20px;
-        font-family: 'freight-sans-pro'
+        font-family: 'Vollkorn'
     }
     .layout-single-column .share-btn {
         background: #ccc;
@@ -8027,10 +8027,10 @@ section.dark {
         width: 65.95744680851064%;
         font-weight: 600;
         margin: 40px 0 20px;
-        font-family: 'freight-sans-pro'
+        font-family: 'Vollkorn'
     }
     .layout-single-column .image-caption p {
-        font-family: 'freight-sans-pro';
+        font-family: 'Vollkorn';
         font-size: 16px;
         margin-top: 8px
     }
@@ -8050,7 +8050,7 @@ section.dark {
         width: 100%;
         font-size: 42px;
         line-height: 49px;
-        font-family: 'freight-sans-pro';
+        font-family: 'Vollkorn';
         font-weight: 600
     }
     .figure {
@@ -8135,17 +8135,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1 {
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 h2 {
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 h3 {
     font-size: 24px;
     font-weight: 600;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 h4 {
@@ -8198,7 +8198,7 @@ h2.block-header {
     font-size: 21px;
     line-height: 1.75;
     color: #555;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 body.home .block-header {}
@@ -8247,13 +8247,13 @@ blockquote {
     border-left: 0;
     line-height: 1.2em;
     border-left: none;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 blockquote p {
     font-size: 27.5px;
     line-height: 34px;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 blockquote footer {
@@ -8932,7 +8932,7 @@ body.takeover .page-header-slider {
 }
 
 .modal-title {
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 .modal-slider {}
@@ -9896,7 +9896,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 .block.promo h3 {
     margin: 0;
     margin-bottom: 10px;
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 600
 }
@@ -10039,7 +10039,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 
 .block.promo-wide h3 {
     margin: 0 0 10px;
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     font-size: 30px
 }
 
@@ -10111,7 +10111,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 .block.profile h3 {
     margin: 0;
     margin-bottom: 10px;
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 600
 }
@@ -10224,7 +10224,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 .video-playlist .media h4 {
     margin: 10px 0;
     font-weight: 600;
-    font-family: "freight-micro-pro", Georgia, serif;
+    font-family: "Vollkorn", Georgia, serif;
     font-size: 16px;
     color: #fff
 }
@@ -10357,7 +10357,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 }
 
 .block.social.twitter .block-body p, .block.social.facebook .block-body p, .block.social.google-plus .block-body p {
-    font-family: 'freight-micro-pro';
+    font-family: 'Vollkorn';
     font-size: 22px;
     line-height: 1.4
 }
@@ -10539,7 +10539,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 }
 
 .block.quote blockquote {
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0 0 30px;
     font-size: 28px;
@@ -10573,7 +10573,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 }
 
 .block.quote.jumbo blockquote {
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0 0 20px;
     font-size: 32px;
@@ -10589,7 +10589,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 }
 
 .article-pull-quote.jumbo blockquote {
-    font-family: "freight-micro-pro", Arial, Helvetica, sans-serif;
+    font-family: "Vollkorn", Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0 0 30px;
     font-size: 50.5px;
@@ -10679,7 +10679,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
     display: block;
     line-height: 22px;
     color: #016155;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 .block.events .event {
@@ -10763,7 +10763,7 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
     display: block;
     line-height: 22px;
     color: #016155;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 .block.event a.thumbnail:hover .media-body h3, .block.event a.thumbnail:focus .media-body h3 {}
@@ -11355,7 +11355,7 @@ a:hover .alert-view-details, a:focus .alert-view-details {
     color: #016155;
     min-width: 16px;
     font-weight: 400;
-    font-family: "freight-micro-pro", Georgia, serif
+    font-family: "Vollkorn", Georgia, serif
 }
 
 .list-pull-heading, .list-content {
@@ -11661,7 +11661,7 @@ display: inline-block */
 }
 
 .block.social.twitter.live .block-body p {
-    font-family: 'freight-micro-pro';
+    font-family: 'Vollkorn';
     font-size: 22px;
     line-height: 1.4
 }
@@ -11675,7 +11675,7 @@ display: inline-block */
 }
 
 .block.social.twitter.live .block-body.list p {
-    font-family: 'freight-micro-pro';
+    font-family: 'Vollkorn';
     font-size: 16px;
     line-height: 1.4
 }

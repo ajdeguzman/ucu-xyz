@@ -9,15 +9,18 @@ return [
     'menu' => [
         'news' => 'News',
         'posts' => 'Posts',
-        'subscribers' => 'Subscribers'
+        'subscribers' => 'Subscribers',
+        'authors' => 'Authors'
     ],
     'title' => [
         'posts' => 'post',
-        'subscribers' => 'subscriber'
+        'subscribers' => 'subscriber',
+        'authors' => 'authors'
     ],
     'new' => [
-        'posts' => 'New post',
-        'subscribers' => 'New subscriber'
+        'posts' => 'New Post',
+        'subscribers' => 'New Subscriber',
+        'authors' => 'New Author'
     ],
     'form' => [
         // General
@@ -27,6 +30,7 @@ return [
         // Posts
         'title' => 'Title',
         'slug' => 'Slug',
+        'author' => 'Select Author',
         'introductory' => 'Introductory',
         'content' => 'Content',
         'image' => 'Image',

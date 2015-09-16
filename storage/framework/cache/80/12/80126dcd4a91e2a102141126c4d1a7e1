@@ -1,4 +1,4 @@
-1442362130s:46755:"a:6:{s:5:"mtime";i:1442361513;s:7:"content";s:23296:"description = "Default layout"
+1442386248s:46921:"a:6:{s:5:"mtime";i:1442385646;s:7:"content";s:23379:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -13,6 +13,7 @@
         {% styles %}
         <link href='{{ "assets/css/bootstrap.css"|theme }}' rel="stylesheet">
         <link href='{{ "assets/css/theme.css"|theme }}' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <link href='{{ "assets/css/yamm.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
         <link href='{{ "assets/css/font.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
         <link href='{{ "assets/css/timeline.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
@@ -194,7 +195,7 @@
                                                     </li>
 
                                             </ul>
-                                            </nav><!-- /.primary-nav -->
+                                            </nav>
                                             <div id="audience-nav">
                                                 <div class="">
                                                     <h3 class="visible-xs">More</h3>
@@ -251,7 +252,7 @@
         {% scripts %}
 
     </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23260:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23343:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -264,6 +265,7 @@
         {% styles %}
         <link href='{{ "assets/css/bootstrap.css"|theme }}' rel="stylesheet">
         <link href='{{ "assets/css/theme.css"|theme }}' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <link href='{{ "assets/css/yamm.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
         <link href='{{ "assets/css/font.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
         <link href='{{ "assets/css/timeline.css"|theme }}' rel="stylesheet" type="text/css" media="all" />
@@ -445,7 +447,7 @@
                                                     </li>
 
                                             </ul>
-                                            </nav><!-- /.primary-nav -->
+                                            </nav>
                                             <div id="audience-nav">
                                                 <div class="">
                                                     <h3 class="visible-xs">More</h3>

@@ -665,7 +665,7 @@ nav#layout-mainmenu.navbar ul li.active a,.mainmenu-collapsed li.active a,nav#la
 nav#layout-mainmenu.navbar ul li:hover,.mainmenu-collapsed li:hover{color:#ffffff;background:transparent}
 body.drag nav#layout-mainmenu.navbar ul.nav li:hover,body.drag .mainmenu-collapsed ul li:hover{color:#555555}
 @media (max-width:769px){nav#layout-mainmenu.navbar ul.nav{display:none}
-nav#layout-mainmenu.navbar .menu-toggle{display:inline-block;color:#2DCC70 !important;font-weight:600}
+nav#layout-mainmenu.navbar .menu-toggle{display:inline-block;color:#009688 !important;font-weight:600}
 .mainmenu-collapsed{position:fixed;height:100%;left:0;top:0;width:0;background:#333333;-webkit-box-shadow:inset -5px 0 3px rgba(0,0,0,0.1);box-shadow:inset -5px 0 3px rgba(0,0,0,0.1);margin:0}
 .mainmenu-collapsed > div{display:relative;height:100%}
 .mainmenu-collapsed > div ul{overflow:hidden;padding:0;margin:0}

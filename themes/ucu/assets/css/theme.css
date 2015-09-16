@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
 body{
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin:0;
   color: #555;
   line-height: 1.85em;
@@ -80,10 +80,10 @@ ul.sidebar-list li{
     letter-spacing: 1px;
     font-weight: 700;
     color: #016155;
-    font-family: 'Merriweather Sans',sans-serif;
+    font-family: 'Vollkorn',sans-serif;
 }
 article > h2 {
-    font-family: 'Merriweather Sans',Arial,Helvetica,sans-serif;
+    font-family: 'Vollkorn',Arial,Helvetica,sans-serif;
     font-size: 1.58em;
     font-weight: 500;
     margin: 0 0 1em 0;
@@ -142,7 +142,7 @@ padding:0;
   background: #016155;
 }
 .page-header {
-  font-family: 'Merriweather Sans', serif;
+  font-family: 'Vollkorn', serif;
   margin: 0 0 20px;
   border-bottom: none;
   padding-top: 17px;
@@ -171,7 +171,7 @@ padding:0;
   float: right;
 }
 .header-right-text h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   text-align: right;
   color: #fff;
   font-size: 1.1em;
@@ -185,14 +185,14 @@ padding:0;
   text-decoration:none !important;
 }
 .header-right-text h3 span {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   margin: 0 12px;
    color: #339966;
     font-weight: 600;
   font-size: 1em;
 }
 .header-right-text h3  i {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
     font-weight: 100;
   font-size: .9em;
   font-style:normal;
@@ -460,7 +460,7 @@ ul.nav.navbar-nav {
   -ms-border-radius: 50%;
 }
 .welcome-text h4 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
   font-size: 2.2em;
   text-transform: uppercase;
   color: #fff;
@@ -477,7 +477,7 @@ ul.nav.navbar-nav {
   text-align:center;
 }
 .index-about h3{
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   text-align: center;
   font-size: 3em;
   margin-bottom: .6em;
@@ -490,17 +490,6 @@ ul.nav.navbar-nav {
   color: #1b1b1b;
 }
 
-.demo-1 {
-  position: relative;
-  width: 340px;
-  height: 235px;
-  overflow: hidden;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  background-color: #000;
-    
-}
 .gallery-info {
   margin-left: 2em;
 }
@@ -510,35 +499,9 @@ ul.nav.navbar-nav {
 .effect:nth-child(6) {
   margin-right: 0 !important;
 }
-ul.demo-1.effect li {
-  list-style: none !important;
-}
-.demo-1 p,.demo-1 h2 {
-  color: #fff;
-  padding: 14px 25px 0px 25px;
-  left: 0px;
-  top: 41px;
-  position: relative;
-}
-
-.demo-1 p {
-  font-size: 14px;
-  line-height: 1.7em;
-  margin: 0;
-  font-weight: 400;
-}
-
 .news-events li {
   list-style: none;
 }
-.demo-1 h2 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 25px;
-  line-height: 24px;
-  margin: 0;
-  color:#339966
-}
-
 .effect img {
     position:absolute;
     margin:-15px 0;
@@ -558,7 +521,7 @@ ul.demo-1.effect li {
     padding-left:300px
 }
 .news-events h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   font-size: 3em;
   margin-bottom: 1em;
   color:#016155;
@@ -583,7 +546,7 @@ background: rgba(0, 0, 0, 0.25);
   font-size: 2.2em;
   font-weight: 400;
   line-height: 1.3em;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
 }
 /*--our creative start here--*/
 .creative {
@@ -787,7 +750,7 @@ div#portfoliolist {
     padding: 4.5em 0;
 }
 .services h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   text-align: center;
   font-size: 3em;
   margin-bottom: .6em;
@@ -827,7 +790,7 @@ div#portfoliolist {
   background: url(../images/list1.png) no-repeat 32% 51%;
 }
 .services h4 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   font-size: 3em;
   margin-bottom: .6em;
 }
@@ -838,7 +801,7 @@ div#portfoliolist {
   padding: 4em 0px;
 }
 .footet-left h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   color: #fff;
   font-size: 1.2em;
   font-weight: 600;
@@ -922,7 +885,7 @@ div#portfoliolist {
   padding: 4em 0 5em;
 }
 .about h2 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
   font-size: 3em;
     color: #339966;
   text-align: center;
@@ -948,7 +911,7 @@ div#portfoliolist {
   padding: 3em 0;
 }
 .bottom-grid h3 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
   color: #016155;
   font-size: 2em;
   padding: 0 0.5em 1em;
@@ -960,7 +923,7 @@ div#portfoliolist {
   padding: 0.8em 0 0;
 }
 .possible-about h4 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
   font-size: 1.4em;
   color: #016155;
   padding: 0 0 1em;
@@ -994,7 +957,7 @@ ul.place li {
   padding: 4em 0;
 }
 h3.type  {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   letter-spacing: 2px;
   font-size: 2.3em;
   font-weight: 600;
@@ -1408,7 +1371,7 @@ span.glyphicon {
   color: #339966;
 }
 .heading h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   letter-spacing: 2px;
   font-size: 2.3em;
   font-weight: 600;
@@ -1683,7 +1646,7 @@ ul.pager {
     background: #f5f5f5
 }
 .works-header h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   letter-spacing: 2px;
   font-size: 2.3em;
   font-weight: 600;
@@ -1714,7 +1677,7 @@ div#portfolio {
   position:relative;
   display:inline-block;
   vertical-align:top;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   font-weight: 300;
   overflow:hidden;
 }
@@ -1880,7 +1843,7 @@ div#portfoliolist {
   margin-top: 2em;
 }
 .moments h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   font-size: 3em;
   color: #339966;
   text-align: center;
@@ -2011,7 +1974,7 @@ div#portfoliolist {
   margin: 0 0 0.5em;
   font-weight: 600;
   text-align: left;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   text-transform:capitalize;
 }
 .contact_left p{
@@ -2021,7 +1984,7 @@ div#portfoliolist {
   margin-bottom: 19px;
 }
 .main-head-section h3 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
   letter-spacing: 2px;
   font-size: 2.3em;
   font-weight: 600;
@@ -2036,7 +1999,7 @@ div#portfoliolist {
   margin: 0 0 0.5em;
   text-align: left;
   text-transform:capitalize;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Vollkorn', sans-serif;
 }
 .company_ad span {
   font-size: 1em;
@@ -2124,12 +2087,6 @@ div#portfoliolist {
     font-size: 1.9em;
       margin-top: 1em;
   }
-  .demo-1 {
-    width: 288px;
-    height: 235px;
-    margin-right: 12px;
-    margin-bottom: 12px;
-  }
   .banner1 {
     min-height: 330px;
   }
@@ -2158,7 +2115,7 @@ div#portfoliolist {
     margin: .5em 0 0;
   }
   .index-about h3{
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
     text-align: center;
     font-size: 3em;
     margin-bottom: .6em;
@@ -2281,22 +2238,6 @@ div#portfoliolist {
   }
   .gallery-info {
       margin-left: 15px;
-  }
-  .demo-1 {
-    width: 220px;
-    height: 220px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-  }
-  .demo-1 h2 {
-    font-size: 18px;
-  }
-  .demo-1 p, .demo-1 h2 {
-    top: 5px;
-      padding: 9px 25px 0px 25px;
-  }
-  .demo-1 p {
-    font-size: 13px
   }
   .testimonials-text {
     min-height: 212px;
@@ -2524,21 +2465,7 @@ div#portfoliolist {
   .index-about {
     padding: 2em 0;
   }
-  .demo-1 {
-    width: 181px;
-    height: 175px;
-    margin-right: 11px;
-    margin-bottom: 11px;
-  }
-  .demo-1 h2 {
-    font-size: 14px;
-      text-align: left;
-  }
-  .demo-1 p {
-    font-size: 13px;
-    overflow: hidden;
-    height: 115px;
-  }
+
   div#portfoliolist {
     padding: 19px 6px 0px 0px;
   }
@@ -2660,16 +2587,7 @@ div#portfoliolist {
   -o-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg); }
 }
-@media(max-width:736px){
-  .demo-1 {
-    width: 206px;
-  }
-}
-@media(max-width:667px){
-  .demo-1 {
-    width: 181px;
-  }
-}
+
 @media(max-width:600px){
   .welcome-text h4 {
     font-size: 1.2em;
@@ -2680,19 +2598,11 @@ div#portfoliolist {
   .index-about p {
     font-size: .92em;
   }
-  .demo-1 {
-    width: 168px;
-  }
   .moments-left img {
     margin-right: 17px;
   }
   .moments-left img {
     margin-right: 17px;
-  }
-}
-@media(max-width: 568px){
-  .demo-1 {
-    width: 157px;
   }
 }
 @media(max-width: 480px){
@@ -2704,9 +2614,6 @@ div#portfoliolist {
     width: 32%;
     float: none;
     margin: 0 auto 7%;
-  }
-  .demo-1 {
-    width: 196px;
   }
   .testimonials-info h5 {
     font-size: 1.3em;
@@ -2812,21 +2719,6 @@ div#portfoliolist {
     padding-left: 0;
   }
 }
-@media(max-width: 414px){
-  .demo-1 {
-    width: 163px;
-  }
-}
-@media(max-width: 384px){
-  .demo-1 {
-    width: 149px;
-  }
-}
-@media(max-width: 375px){
-  .demo-1 {
-    width: 145px;
-  }
-}
 @media(max-width: 320px){
   .logo {
     top: -22px;
@@ -2886,10 +2778,6 @@ div#portfoliolist {
   }
   .gallery-info {
     margin-left: 0;
-  }
-  .demo-1 {
-    width: 275px;
-    margin-right: 0;
   }
   .testimonials-text {
     min-height: 179px;

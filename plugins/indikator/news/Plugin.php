@@ -38,6 +38,12 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('indikator/news/subscribers'),
                         'icon'        => 'icon-user',
                         'permissions' => ['indikator.news.subscribers']
+                    ],
+                    'authors' => [
+                        'label'       => 'indikator.news::lang.menu.authors',
+                        'url'         => Backend::url('indikator/news/authors'),
+                        'icon'        => 'icon-users',
+                        'permissions' => ['indikator.news.authors']
                     ]
                 ]
             ]
@@ -86,6 +92,10 @@ class Plugin extends PluginBase
             'indikator.news.subscribers' => [
                 'tab'   => 'indikator.news::lang.menu.news',
                 'label' => 'indikator.news::lang.permission.subscribers'
+            ],
+            'indikator.news.authors' => [
+                'tab'   => 'indikator.news::lang.menu.authors',
+                'label' => 'indikator.news::lang.permission.authors'
             ]
         ];
     }

@@ -1,5 +1,5 @@
 <?php 
-use Indikator\News\Models\Post;class Cms55f8af37cdf23_876780225Class extends \Cms\Classes\PageCode
+use Indikator\News\Models\Post;class Cms55f8fefa0906a_941266828Class extends \Cms\Classes\PageCode
 {
 
 
@@ -12,7 +12,7 @@ public function onStart(){
         return Redirect::to('/404');
 
     // only to change the title to be more pleasant
-    $this->page->settings['title'] = "Post - " . $this["post"]->title;
+    $this->page->settings['title'] =  $this["post"]->title;
 }
 
 

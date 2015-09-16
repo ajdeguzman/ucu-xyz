@@ -19,7 +19,7 @@ class __TwigTemplate_c5d35abee15ce1fefd8aa589649d7581c895925e8d302f39cc2758c5b79
         echo "<header class=\"intro-header\">
     <div class=\"container\">
         <div class=\"row\">
-            <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">
+            <div class=\" col-sm-12 col-md-8\">
                 <div class=\"post-heading\">
                     <h1>";
         // line 6
@@ -39,16 +39,11 @@ class __TwigTemplate_c5d35abee15ce1fefd8aa589649d7581c895925e8d302f39cc2758c5b79
 <article>
     <div class=\"container\">
         <div class=\"row\">
-            <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">
+            <div class=\" col-sm-12 col-md-8\">
                 ";
         // line 19
         echo $this->getAttribute((isset($context["post"]) ? $context["post"] : null), "content", array());
         echo "
-            </div>
-        </div>
-        <div class=\"row\">
-            <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">
-               
             </div>
         </div>
     </div>

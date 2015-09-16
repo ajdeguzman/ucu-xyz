@@ -46,7 +46,7 @@ class __TwigTemplate_70fce2d4dfc08aa36e0ff80e2108509d3271e63a2df6114cc0ff4b6ab58
             echo "\" class=\"thumbnail\">
                                     <img src='";
             // line 14
-            echo $this->env->getExtension('CMS')->themeFilter("assets/images/events_1.jpg");
+            echo $this->env->getExtension('CMS')->themeFilter("assets/images/events_2.jpg");
             echo "'  alt=\"\">
                                     <div class=\"caption-news\"><h4>";
             // line 15
