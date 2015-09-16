@@ -1,0 +1,50 @@
+title = "Blog Post"
+url = "/news/:slug"
+layout = "default"
+description = "Single news page"
+==
+<?php
+use Indikator\News\Models\Post;
+
+function onStart(){
+    $slug = $this->param('slug');
+    $this['post'] = Post::where('slug', '=', $slug)
+                            ->isPublished()
+                            ->first();
+    if( !$this['post'] )
+        return Redirect::to('/404');
+
+    // only to change the title to be more pleasant
+    $this->page->settings['title'] = "Post - " . $this["post"]->title;
+}
+
+?>
+==
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ post.title }}</h1>
+                    <span class="meta">{{ post.published_at|date("F d, Y") }}</span><br/>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {{ post.content|raw }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+               
+            </div>
+        </div>
+    </div>
+</article>

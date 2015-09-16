@@ -1,5 +1,5 @@
 <?php 
-use Indikator\News\Models\Post;class Cms55f8388f0fba8_1098677618Class extends \Cms\Classes\PageCode
+use Indikator\News\Models\Post;class Cms55f84245cc122_167787470Class extends \Cms\Classes\PageCode
 {
 
 

@@ -38,7 +38,12 @@ class __TwigTemplate_70fce2d4dfc08aa36e0ff80e2108509d3271e63a2df6114cc0ff4b6ab58
             // line 11
             echo "                            <div class=\"col-sm-4\">
                                 <div class=\"block block-thumbnail\">
-                                    <a href=\"http://news.ucu.edu/2015/\" class=\"thumbnail\">
+                                    <a  href=\"";
+            // line 13
+            echo $this->env->getExtension('CMS')->pageFilter("home");
+            echo "/news/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "slug", array()), "html", null, true);
+            echo "\" class=\"thumbnail\">
                                     <img src='";
             // line 14
             echo $this->env->getExtension('CMS')->themeFilter("assets/images/events_1.jpg");
@@ -205,6 +210,6 @@ class __TwigTemplate_70fce2d4dfc08aa36e0ff80e2108509d3271e63a2df6114cc0ff4b6ab58
 
     public function getDebugInfo()
     {
-        return array (  123 => 79,  119 => 78,  59 => 20,  48 => 15,  44 => 14,  39 => 11,  35 => 10,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  128 => 79,  124 => 78,  64 => 20,  53 => 15,  49 => 14,  43 => 13,  39 => 11,  35 => 10,  27 => 4,  23 => 3,  19 => 1,);
     }
 }

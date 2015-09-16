@@ -68,15 +68,14 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                     <header id=\"site-header\" class=\"light\">
                             <div class=\"navbar navbar-default navbar-static-top yamm\">
                                 <div class=\"container\">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class=\"navbar-header\">
                                         <h1>
                                         <a  href=\"";
-        // line 26
+        // line 25
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/\" class=\"navbar-brand\" title=\"UCU\" rel=\"home\">
-                                        <span class=\"navbar-brand-blue\"><img alt=\"UCU\" src='";
-        // line 27
+                                        <span class=\"navbar-brand-blue\"><img alt=\"Urdaneta City University\" src='";
+        // line 26
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/ucu_logo_white_text.png");
         echo "'></span>
                                         </a>
@@ -91,7 +90,7 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                             <ul class=\"nav navbar-nav\">
                                                     <li>
                                                         <a  href=\"";
-        // line 39
+        // line 38
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/\" style=\"font-weight:600\">Home</a>
                                                     </li>
@@ -106,7 +105,7 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\">
                                                                                         <img src='";
-        // line 51
+        // line 50
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/about_menu.jpg");
         echo "' alt=\"\">
                                                                                     </div>
@@ -119,37 +118,37 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 61
+        // line 60
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/history\" class=\"\">History</a></li>
                                                                                         <li><a href=\"";
-        // line 62
+        // line 61
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/vmgo\" class=\"\">Vision &amp; Mission</a></li>
                                                                                         <li><a href=\"";
-        // line 63
+        // line 62
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/administration\" class=\"\">Administration</a></li>
                                                                                         <li><a href=\"";
-        // line 64
+        // line 63
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/university-hymn\" class=\"\">University Hymn</a></li>
                                                                                     </ul></div>
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 67
+        // line 66
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/highlights\" class=\"\">UCU Highlights</a></li>
                                                                                         <li><a href=\"";
-        // line 68
+        // line 67
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/campus-map\" class=\"\">Campus Map</a></li>
                                                                                         <li><a href=\"";
-        // line 69
+        // line 68
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/seal-and-symbols\" class=\"\">UCU Seal & Symbols</a></li>
                                                                                         <li><a href=\"";
-        // line 70
+        // line 69
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/about-ucu/contact-us\" class=\"\">Contact Us</a></li>
                                                                                     </ul></div>
@@ -172,7 +171,7 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\">
                                                                                         <img src='";
-        // line 90
+        // line 89
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/admissions_menu.jpg");
         echo "' alt=\"\">
                                                                                     </div>
@@ -185,29 +184,29 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 100
+        // line 99
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/application-procedures\" aria-describedby=\"campus-life\" class=\"\">Application and Enrolment Procedures</a></li>
                                                                                         <li><a href=\"";
-        // line 101
+        // line 100
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/scholarships\" class=\"\">Scholarship Grants</a></li>
                                                                                         <li><a href=\"";
-        // line 102
+        // line 101
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/graduates\" class=\"\">Graduate</a></li>
                                                                                         <li><a href=\"";
-        // line 103
+        // line 102
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/undergraduates\" class=\"\">Undergraduate</a></li>
                                                                                     </ul></div>
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 106
+        // line 105
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/law\" class=\"\">Law</a></li>
                                                                                         <li><a href=\"";
-        // line 107
+        // line 106
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/admission/entrance-examination\" class=\"\">Entrance Examination</a></li>
                                                                                     </ul></div>
@@ -230,7 +229,7 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\">
                                                                                         <img src='";
-        // line 127
+        // line 126
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/academics_menu.jpg");
         echo "' alt=\"\">
                                                                                     </div>
@@ -243,37 +242,37 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 137
+        // line 136
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/graduate-school\" aria-describedby=\"campus-life\" class=\"\">Graduate School</a></li>
                                                                                         <li><a href=\"";
-        // line 138
+        // line 137
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/colleges\" class=\"\">Colleges</a></li>
                                                                                         <li><a href=\"";
-        // line 139
+        // line 138
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/cpd\" class=\"\">Center for Continuing and Professional Development</a></li>
                                                                                         <li><a href=\"";
-        // line 140
+        // line 139
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/research-extensions\" class=\"\">Research &amp; Extensions</a></li>
                                                                                     </ul></div>
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 143
+        // line 142
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/faculty-profile\" class=\"\">Faculty Profile</a></li>
                                                                                         <li><a href=\"";
-        // line 144
+        // line 143
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/academic-calendar\" class=\"\">Academic Calendar</a></li>
                                                                                         <li><a href=\"";
-        // line 145
+        // line 144
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/opac\" class=\"\">UCU OPAC</a></li>
                                                                                         <li><a href=\"";
-        // line 146
+        // line 145
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/academics/library\" class=\"\">Libraries</a></li>
                                                                                     </ul></div>
@@ -296,7 +295,7 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\">
                                                                                         <img src='";
-        // line 166
+        // line 165
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/campuslife_menu.jpg");
         echo "' alt=\"\">
                                                                                     </div>
@@ -309,30 +308,30 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                                                 <div class=\"row\">
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 176
+        // line 175
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/student-development\" aria-describedby=\"campus-life\" class=\"\">Student Development</a></li>
                                                                                         <li><a href=\"/campus-life/guidance-counseling\" class=\"\">Guidance and Counseling</a></li>
                                                                                         <li><a href=\"";
-        // line 178
+        // line 177
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/student-organizations\" class=\"\">Student Organizations</a></li>
                                                                                     </ul></div>
                                                                                     <div class=\"col-sm-6\"><ul class=\"list-unstyled\">
                                                                                         <li><a href=\"";
-        // line 181
+        // line 180
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/arts-culture\" class=\"\">Arts &amp; Culture</a></li>
                                                                                         <li><a href=\"";
-        // line 182
+        // line 181
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/civic-welfare\" class=\"\">Civil Welfare</a></li>
                                                                                         <li><a href=\"";
-        // line 183
+        // line 182
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/athletics\" class=\"\">Athletics</a></li>
                                                                                         <li><a href=\"";
-        // line 184
+        // line 183
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/campus-life/publications\" class=\"\">Publications</a></li>
                                                                                     </ul></div>
@@ -352,11 +351,11 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
                                                     <h3 class=\"visible-xs\">More</h3>
                                                     <ul class=\"nav navbar-nav\">
                                                         <li><a href=\"";
-        // line 201
+        // line 200
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/students\">Students</a></li>
                                                         <li><a href=\"";
-        // line 202
+        // line 201
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "/faculty\">Faculty &amp; Staff</a></li>
                                                         <li><a href=\"http://alumni.ucu.edu/\">Alumni</a></li>
@@ -372,26 +371,26 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
         <!-- Content -->
         <section id=\"layout-content\">
             ";
-        // line 215
+        // line 214
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 216
+        // line 215
         echo "        </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
             ";
-        // line 220
+        // line 219
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 221
+        // line 220
         echo "        </footer>
 
         <!-- Scripts -->
         <script src=\"";
-        // line 224
+        // line 223
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/vendor/bootstrap/js/transition.js", 2 => "assets/vendor/bootstrap/js/alert.js", 3 => "assets/vendor/bootstrap/js/button.js", 4 => "assets/vendor/bootstrap/js/carousel.js", 5 => "assets/vendor/bootstrap/js/collapse.js", 6 => "assets/vendor/bootstrap/js/dropdown.js", 7 => "assets/vendor/bootstrap/js/modal.js", 8 => "assets/vendor/bootstrap/js/tooltip.js", 9 => "assets/vendor/bootstrap/js/popover.js", 10 => "assets/vendor/bootstrap/js/scrollspy.js", 11 => "assets/vendor/bootstrap/js/tab.js", 12 => "assets/vendor/bootstrap/js/affix.js", 13 => "assets/javascript/app.js", 14 => "assets/javascript/bootstrap.js", 15 => "assets/javascript/modernizr.js", 16 => "assets/javascript/easing.js", 17 => "assets/javascript/move-top.js", 18 => "assets/javascript/main.js"));
-        // line 243
+        // line 242
         echo "\"></script>
     <script type=\"text/javascript\">
         \$(document).ready(function () {
@@ -399,18 +398,18 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
         });
    </script>
         ";
-        // line 249
+        // line 248
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 250
+        // line 249
         echo "        ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 251
+        // line 250
         echo "
     </body>
 </html>";
@@ -428,6 +427,6 @@ class __TwigTemplate_7558c04ac9f0e9c7958e3a5342edce982a46631715ea505d8b57fbae227
 
     public function getDebugInfo()
     {
-        return array (  414 => 251,  410 => 250,  403 => 249,  395 => 243,  393 => 224,  388 => 221,  384 => 220,  378 => 216,  376 => 215,  360 => 202,  356 => 201,  336 => 184,  332 => 183,  328 => 182,  324 => 181,  318 => 178,  313 => 176,  300 => 166,  277 => 146,  273 => 145,  269 => 144,  265 => 143,  259 => 140,  255 => 139,  251 => 138,  247 => 137,  234 => 127,  211 => 107,  207 => 106,  201 => 103,  197 => 102,  193 => 101,  189 => 100,  176 => 90,  153 => 70,  149 => 69,  145 => 68,  141 => 67,  135 => 64,  131 => 63,  127 => 62,  123 => 61,  110 => 51,  95 => 39,  80 => 27,  76 => 26,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  46 => 12,  43 => 11,  39 => 10,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  413 => 250,  409 => 249,  402 => 248,  394 => 242,  392 => 223,  387 => 220,  383 => 219,  377 => 215,  375 => 214,  359 => 201,  355 => 200,  335 => 183,  331 => 182,  327 => 181,  323 => 180,  317 => 177,  312 => 175,  299 => 165,  276 => 145,  272 => 144,  268 => 143,  264 => 142,  258 => 139,  254 => 138,  250 => 137,  246 => 136,  233 => 126,  210 => 106,  206 => 105,  200 => 102,  196 => 101,  192 => 100,  188 => 99,  175 => 89,  152 => 69,  148 => 68,  144 => 67,  140 => 66,  134 => 63,  130 => 62,  126 => 61,  122 => 60,  109 => 50,  94 => 38,  79 => 26,  75 => 25,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  46 => 12,  43 => 11,  39 => 10,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
     }
 }

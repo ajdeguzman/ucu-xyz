@@ -1,4 +1,4 @@
-1442331446s:46915:"a:6:{s:5:"mtime";i:1442300284;s:7:"content";s:23376:"description = "Default layout"
+1442362130s:46755:"a:6:{s:5:"mtime";i:1442361513;s:7:"content";s:23296:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -22,11 +22,10 @@
                     <header id="site-header" class="light">
                             <div class="navbar navbar-default navbar-static-top yamm">
                                 <div class="container">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <h1>
                                         <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
-                                        <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
+                                        <span class="navbar-brand-blue"><img alt="Urdaneta City University" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
                                         </a>
                                         </h1>
                              <button class="menu-button navbar-toggle" id="menuButton" data-toggle="collapse" data-target="#main-nav">
@@ -252,7 +251,7 @@
         {% scripts %}
 
     </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23340:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:23260:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -274,11 +273,10 @@
                     <header id="site-header" class="light">
                             <div class="navbar navbar-default navbar-static-top yamm">
                                 <div class="container">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <h1>
                                         <a  href="{{ 'home'|page }}/" class="navbar-brand" title="UCU" rel="home">
-                                        <span class="navbar-brand-blue"><img alt="UCU" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
+                                        <span class="navbar-brand-blue"><img alt="Urdaneta City University" src='{{ "assets/images/ucu_logo_white_text.png"|theme }}'></span>
                                         </a>
                                         </h1>
                              <button class="menu-button navbar-toggle" id="menuButton" data-toggle="collapse" data-target="#main-nav">
