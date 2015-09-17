@@ -1,4 +1,4 @@
-1442386078s:2514:"a:6:{s:5:"mtime";i:1442378352;s:7:"content";s:1170:"title = "Blog Post"
+1442419064s:2650:"a:6:{s:5:"mtime";i:1442412888;s:7:"content";s:1238:"title = "Blog Post"
 url = "/news/:slug"
 layout = "default"
 description = "Single news page"
@@ -38,7 +38,9 @@ function onStart(){
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
-                {{ post.content|raw }}
+                <p class="news-content">
+                    {{ post.content|raw }}
+                </p>
             </div>
         </div>
     </div>
@@ -58,7 +60,7 @@ function onStart(){
     $this->page->settings['title'] =  $this["post"]->title;
 }
 
-";s:6:"markup";s:639:"<header class="intro-header">
+";s:6:"markup";s:707:"<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
@@ -76,7 +78,9 @@ function onStart(){
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
-                {{ post.content|raw }}
+                <p class="news-content">
+                    {{ post.content|raw }}
+                </p>
             </div>
         </div>
     </div>

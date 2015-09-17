@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Event
+
+# Model Form Field configuration
+form: $/ajdeguzman/events/models/event/fields.yaml
+
+# Model Class name
+modelClass: Ajdeguzman\Events\Models\Event
+
+# Default redirect location
+defaultRedirect: ajdeguzman/events/events
+
+# Create page
+create:
+    title: Create Event
+    redirect: ajdeguzman/events/events/update/:id
+    redirectClose: ajdeguzman/events/events
+
+# Update page
+update:
+    title: Edit Event
+    redirect: ajdeguzman/events/events
+    redirectClose: ajdeguzman/events/events
+
+# Preview page
+preview:
+    title: Preview Event

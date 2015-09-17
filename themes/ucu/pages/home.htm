@@ -6,12 +6,12 @@ is_hidden = "0"
 [advanced]
 idSlider = "1"
 height = "500"
-autoplay = "true"
+autoplay = "1"
 fillmode = "2"
 transaction = "2"
 autoplayinterval = "10000"
 pauseonhover = "1"
-arrowkeynavigation = "true"
+arrowkeynavigation = "1"
 slideduration = "400"
 mindragoffset = "0"
 slidespacing = "0"
@@ -20,7 +20,7 @@ playorientation = "1"
 chancetoshow = "2"
 autocenter = "1"
 orientation = "1"
-spacingx = "20"
+spacingx = "8"
 spacingy = "8"
 steps = "1"
 lanes = "1"
@@ -49,7 +49,7 @@ function onStart(){
                             <div class="col-sm-4">
                                 <div class="block block-thumbnail">
                                     <a  href="{{ 'home'|page }}/news/{{post.slug}}" class="thumbnail">
-                                    <img src='{{ "assets/images/events_2.jpg"|theme }}'  alt="">
+                                    <img src='/ucu-xyz/storage/app/media{{ post.image }}'  alt="">
                                     <div class="caption-news"><h4>{{ post.title }}</h4></div>
                                     </a>
                                 </div>

@@ -2,7 +2,7 @@
 
 return [
     'plugin' => [
-        'name' => 'RJ Slider',
+        'name' => 'Banner Slider',
         'description' => 'Create a touch responsive slideshow with device independent design.'
     ],
     'permissions' => [

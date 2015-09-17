@@ -1,4 +1,4 @@
-1442386078s:20350:"a:6:{s:5:"mtime";i:1442376246;s:7:"content";s:9996:"title = "Home"
+1442418603s:20340:"a:6:{s:5:"mtime";i:1442417998;s:7:"content";s:9991:"title = "Home"
 url = "/"
 layout = "default"
 is_hidden = "0"
@@ -6,12 +6,12 @@ is_hidden = "0"
 [advanced]
 idSlider = "1"
 height = "500"
-autoplay = "true"
+autoplay = "1"
 fillmode = "2"
 transaction = "2"
 autoplayinterval = "10000"
 pauseonhover = "1"
-arrowkeynavigation = "true"
+arrowkeynavigation = "1"
 slideduration = "400"
 mindragoffset = "0"
 slidespacing = "0"
@@ -20,7 +20,7 @@ playorientation = "1"
 chancetoshow = "2"
 autocenter = "1"
 orientation = "1"
-spacingx = "20"
+spacingx = "8"
 spacingy = "8"
 steps = "1"
 lanes = "1"
@@ -49,7 +49,7 @@ function onStart(){
                             <div class="col-sm-4">
                                 <div class="block block-thumbnail">
                                     <a  href="{{ 'home'|page }}/news/{{post.slug}}" class="thumbnail">
-                                    <img src='{{ "assets/images/events_2.jpg"|theme }}'  alt="">
+                                    <img src='/ucu-xyz/storage/app/media{{ post.image }}'  alt="">
                                     <div class="caption-news"><h4>{{ post.title }}</h4></div>
                                     </a>
                                 </div>
@@ -183,13 +183,13 @@ function onStart(){
                     </div>
                     </div>
             </div>
-    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:4:"true";s:8:"fillmode";s:1:"2";s:11:"transaction";s:1:"2";s:16:"autoplayinterval";s:5:"10000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:4:"true";s:13:"slideduration";s:3:"400";s:13:"mindragoffset";s:1:"0";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"3";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:2:"20";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"2";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}s:4:"code";s:153:"
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:1:"1";s:8:"fillmode";s:1:"2";s:11:"transaction";s:1:"2";s:16:"autoplayinterval";s:5:"10000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:1:"1";s:13:"slideduration";s:3:"400";s:13:"mindragoffset";s:1:"0";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"3";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:1:"8";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"2";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}s:4:"code";s:153:"
 use Indikator\News\Models\Post;
 
 function onStart(){
     $this['posts'] = Post::isPublished()->orderBy('published_at', 'desc')->take(2)->get();
 }
-";s:6:"markup";s:9293:"<div class="banner">
+";s:6:"markup";s:9295:"<div class="banner">
     <div class="container-fluids">
         {% component 'advanced' %}
     </div>
@@ -202,7 +202,7 @@ function onStart(){
                             <div class="col-sm-4">
                                 <div class="block block-thumbnail">
                                     <a  href="{{ 'home'|page }}/news/{{post.slug}}" class="thumbnail">
-                                    <img src='{{ "assets/images/events_2.jpg"|theme }}'  alt="">
+                                    <img src='/ucu-xyz/storage/app/media{{ post.image }}'  alt="">
                                     <div class="caption-news"><h4>{{ post.title }}</h4></div>
                                     </a>
                                 </div>

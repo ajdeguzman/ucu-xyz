@@ -14,14 +14,14 @@ fields:
         required: true
         span: auto
 
-    author:
-        label: indikator.news::lang.form.author
-        span: auto
-        type: dropdown
-        options:
-            1: indikator.news::lang.form.status_published
-            2: indikator.news::lang.form.status_hide
-            3: indikator.news::lang.form.status_draft
+    # author:
+    #     label: indikator.news::lang.form.author
+    #     span: auto
+    #     type: dropdown
+    #     options:
+    #         1: indikator.news::lang.form.status_published
+    #         2: indikator.news::lang.form.status_hide
+    #         3: indikator.news::lang.form.status_draft
 
     introductory:
         label: indikator.news::lang.form.introductory

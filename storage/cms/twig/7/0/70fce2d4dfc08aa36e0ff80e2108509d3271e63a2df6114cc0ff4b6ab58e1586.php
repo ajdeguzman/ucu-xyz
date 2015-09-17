@@ -44,9 +44,9 @@ class __TwigTemplate_70fce2d4dfc08aa36e0ff80e2108509d3271e63a2df6114cc0ff4b6ab58
             echo "/news/";
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "slug", array()), "html", null, true);
             echo "\" class=\"thumbnail\">
-                                    <img src='";
+                                    <img src='/ucu-xyz/storage/app/media";
             // line 14
-            echo $this->env->getExtension('CMS')->themeFilter("assets/images/events_2.jpg");
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "image", array()), "html", null, true);
             echo "'  alt=\"\">
                                     <div class=\"caption-news\"><h4>";
             // line 15

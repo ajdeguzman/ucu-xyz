@@ -16,6 +16,14 @@ body a{
   -o-transition:0.5s all;
   -ms-transition:0.5s all;
 }
+p:first-letter:first-of-type;{
+  font-size: 300%;
+  font-family:  garamond, bodoni, curly, times, serif;
+  color: orange;
+  padding-right: 1px;
+  position:relative;
+  margin-left: -26px;
+}
 h4 {
       font-weight: 600 !important;
 }
