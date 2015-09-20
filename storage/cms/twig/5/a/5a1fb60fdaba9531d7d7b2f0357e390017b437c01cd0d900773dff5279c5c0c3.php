@@ -320,22 +320,27 @@ class __TwigTemplate_5a1fb60fdaba9531d7d7b2f0357e390017b437c01cd0d900773dff5279c
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["slider"]) ? $context["slider"] : null), "images", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
             // line 147
-            echo "        <div>
+            echo "      <!--  <div>
                 <img u=\"image\" src2=\"";
             // line 148
             echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
             echo "\" />
-                <!-- <div class=\"carousel-caption-slider  right-top bg-white\">
+                 <div class=\"carousel-caption-slider  right-top bg-white\">
                 <h3 class=\"red\">Lorem Ipsum</h3>
                 <p class=\"dark\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsum cum id, aliquam tempore totam alias quisquam deserunt autem, ullam animi dolores ad.</p>
-                            </div> -->
-        </div>
+                            </div> 
+        </div>-->
+        <div> <img u=\"image\" src2=\"";
+            // line 154
+            echo twig_escape_filter($this->env, $this->getAttribute($context["image"], "path", array()), "html", null, true);
+            echo "\" /></div>
+               
         ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 155
+        // line 157
         echo "    </div>
 
     <!-- Bullet Navigator Skin Begin -->
@@ -352,7 +357,7 @@ class __TwigTemplate_5a1fb60fdaba9531d7d7b2f0357e390017b437c01cd0d900773dff5279c
     <script>
         document.addEventListener(\"DOMContentLoaded\",function(){
             jssor_";
-        // line 170
+        // line 172
         echo twig_escape_filter($this->env, (isset($context["__SELF__"]) ? $context["__SELF__"] : null), "html", null, true);
         echo "_starter('";
         echo twig_escape_filter($this->env, (isset($context["__SELF__"]) ? $context["__SELF__"] : null), "html", null, true);
@@ -374,6 +379,6 @@ class __TwigTemplate_5a1fb60fdaba9531d7d7b2f0357e390017b437c01cd0d900773dff5279c
 
     public function getDebugInfo()
     {
-        return array (  356 => 170,  339 => 155,  326 => 148,  323 => 147,  319 => 146,  315 => 145,  302 => 137,  279 => 117,  272 => 113,  268 => 112,  264 => 111,  256 => 106,  252 => 105,  248 => 104,  244 => 103,  240 => 102,  236 => 101,  232 => 100,  228 => 98,  219 => 91,  217 => 90,  209 => 85,  205 => 84,  201 => 83,  197 => 82,  193 => 81,  189 => 80,  185 => 79,  181 => 78,  177 => 77,  173 => 76,  170 => 75,  166 => 73,  161 => 70,  158 => 69,  153 => 66,  150 => 65,  145 => 62,  142 => 61,  137 => 58,  134 => 57,  129 => 54,  126 => 53,  121 => 50,  118 => 49,  113 => 46,  110 => 45,  105 => 42,  102 => 41,  97 => 38,  94 => 37,  89 => 34,  86 => 33,  81 => 30,  78 => 29,  73 => 26,  70 => 25,  65 => 22,  62 => 21,  57 => 18,  54 => 17,  49 => 14,  46 => 13,  41 => 10,  38 => 9,  33 => 6,  31 => 5,  28 => 4,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  361 => 172,  344 => 157,  335 => 154,  326 => 148,  323 => 147,  319 => 146,  315 => 145,  302 => 137,  279 => 117,  272 => 113,  268 => 112,  264 => 111,  256 => 106,  252 => 105,  248 => 104,  244 => 103,  240 => 102,  236 => 101,  232 => 100,  228 => 98,  219 => 91,  217 => 90,  209 => 85,  205 => 84,  201 => 83,  197 => 82,  193 => 81,  189 => 80,  185 => 79,  181 => 78,  177 => 77,  173 => 76,  170 => 75,  166 => 73,  161 => 70,  158 => 69,  153 => 66,  150 => 65,  145 => 62,  142 => 61,  137 => 58,  134 => 57,  129 => 54,  126 => 53,  121 => 50,  118 => 49,  113 => 46,  110 => 45,  105 => 42,  102 => 41,  97 => 38,  94 => 37,  89 => 34,  86 => 33,  81 => 30,  78 => 29,  73 => 26,  70 => 25,  65 => 22,  62 => 21,  57 => 18,  54 => 17,  49 => 14,  46 => 13,  41 => 10,  38 => 9,  33 => 6,  31 => 5,  28 => 4,  26 => 3,  22 => 2,  19 => 1,);
     }
 }

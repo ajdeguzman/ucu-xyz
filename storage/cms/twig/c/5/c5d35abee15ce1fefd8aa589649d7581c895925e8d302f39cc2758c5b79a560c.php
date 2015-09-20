@@ -40,12 +40,12 @@ class __TwigTemplate_c5d35abee15ce1fefd8aa589649d7581c895925e8d302f39cc2758c5b79
     <div class=\"container\">
         <div class=\"row\">
             <div class=\" col-sm-12 col-md-8\">
-                <p class=\"news-content\">
+                <div class=\"news-content\">
                     ";
         // line 20
         echo $this->getAttribute((isset($context["post"]) ? $context["post"] : null), "content", array());
         echo "
-                </p>
+                </div>
             </div>
         </div>
     </div>

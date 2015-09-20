@@ -1,4 +1,4 @@
-1442419065s:9777:"a:6:{s:5:"mtime";i:1442370524;s:7:"content";s:4808:"[viewBag]
+1442735319s:8933:"a:6:{s:5:"mtime";i:1442674662;s:7:"content";s:4386:"[viewBag]
 ==
 <div class="footer">
                 <div class="container">
@@ -53,11 +53,6 @@
                         <p>&copy; 2016 Urdaneta City University. All Rights Reserved.</p>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        $().UItoTop({ easingType: 'easeOutQuart' });
-                    });
-                </script>
 
                 <script>
                 var menuButton = document.getElementById('menuButton');
@@ -66,10 +61,7 @@
                     e.preventDefault();
                 });
                 </script>
-                <div class = "scrollToTop">
-                    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-                </div>
-            </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:7:"viewBag";a:0:{}}}s:4:"code";N;s:6:"markup";s:4793:"<div class="footer">
+            </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:7:"viewBag";a:0:{}}}s:4:"code";N;s:6:"markup";s:4371:"<div class="footer">
                 <div class="container">
                         <div class="row">
                             <div class="col-sm-6 cold-md-6">
@@ -122,11 +114,6 @@
                         <p>&copy; 2016 Urdaneta City University. All Rights Reserved.</p>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        $().UItoTop({ easingType: 'easeOutQuart' });
-                    });
-                </script>
 
                 <script>
                 var menuButton = document.getElementById('menuButton');
@@ -135,7 +122,4 @@
                     e.preventDefault();
                 });
                 </script>
-                <div class = "scrollToTop">
-                    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-                </div>
             </div>";}";

@@ -1,4 +1,4 @@
-1442419064s:2650:"a:6:{s:5:"mtime";i:1442412888;s:7:"content";s:1238:"title = "Blog Post"
+1442735318s:2548:"a:6:{s:5:"mtime";i:1442570988;s:7:"content";s:1187:"title = "Blog Post"
 url = "/news/:slug"
 layout = "default"
 description = "Single news page"
@@ -13,8 +13,6 @@ function onStart(){
                             ->first();
     if( !$this['post'] )
         return Redirect::to('/404');
-
-    // only to change the title to be more pleasant
     $this->page->settings['title'] =  $this["post"]->title;
 }
 
@@ -38,14 +36,14 @@ function onStart(){
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
-                <p class="news-content">
+                <div class="news-content">
                     {{ post.content|raw }}
-                </p>
+                </div>
             </div>
         </div>
     </div>
 </article>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"Blog Post";s:3:"url";s:11:"/news/:slug";s:6:"layout";s:7:"default";s:11:"description";s:16:"Single news page";s:10:"components";a:0:{}}s:4:"code";s:416:"
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"Blog Post";s:3:"url";s:11:"/news/:slug";s:6:"layout";s:7:"default";s:11:"description";s:16:"Single news page";s:10:"components";a:0:{}}s:4:"code";s:361:"
 use Indikator\News\Models\Post;
 
 function onStart(){
@@ -55,12 +53,10 @@ function onStart(){
                             ->first();
     if( !$this['post'] )
         return Redirect::to('/404');
-
-    // only to change the title to be more pleasant
     $this->page->settings['title'] =  $this["post"]->title;
 }
 
-";s:6:"markup";s:707:"<header class="intro-header">
+";s:6:"markup";s:711:"<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
@@ -78,9 +74,9 @@ function onStart(){
     <div class="container">
         <div class="row">
             <div class=" col-sm-12 col-md-8">
-                <p class="news-content">
+                <div class="news-content">
                     {{ post.content|raw }}
-                </p>
+                </div>
             </div>
         </div>
     </div>

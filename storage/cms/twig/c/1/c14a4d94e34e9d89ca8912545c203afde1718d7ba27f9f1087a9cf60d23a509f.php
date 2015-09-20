@@ -87,11 +87,6 @@ class __TwigTemplate_c14a4d94e34e9d89ca8912545c203afde1718d7ba27f9f1087a9cf60d23
                         <p>&copy; 2016 Urdaneta City University. All Rights Reserved.</p>
                     </div>
                 </div>
-                <script type=\"text/javascript\">
-                    \$(document).ready(function() {
-                        \$().UItoTop({ easingType: 'easeOutQuart' });
-                    });
-                </script>
 
                 <script>
                 var menuButton = document.getElementById('menuButton');
@@ -100,9 +95,6 @@ class __TwigTemplate_c14a4d94e34e9d89ca8912545c203afde1718d7ba27f9f1087a9cf60d23
                     e.preventDefault();
                 });
                 </script>
-                <div class = \"scrollToTop\">
-                    <a href=\"#to-top\" id=\"toTop\" style=\"display: block;\"> <span id=\"toTopHover\" style=\"opacity: 1;\"> </span></a>
-                </div>
             </div>";
     }
 

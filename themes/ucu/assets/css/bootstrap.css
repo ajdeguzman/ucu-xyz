@@ -7652,14 +7652,7 @@ section.dark {
     color: #999
 }
 
-#content {
-    min-height: 420px;
-    background: url('/images/css/tesselation-bg-03.png') no-repeat right bottom #fff
-}
 
-#content.min-page-header {
-    background: url('/images/css/tesselation-bg-02.png') no-repeat right top, url('/images/css/tesselation-bg-03.png') no-repeat right bottom
-}
 
 #content.min-page-header .page-header {
     background: none;
@@ -8654,7 +8647,6 @@ a.thumbnail .caption h3 {
     margin: 0 0 20px;
     border-bottom: none;
     padding-top: 17px;
-    background: url("/images/css/tessellations-03.png") no-repeat right center #46535e
 }
 
 .page-header h1 {
@@ -9770,22 +9762,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
         font-size: 50px;
         line-height: 80px
     }
-    .homepage-hero.homepage-hero-split:before {
-        content: url('/images/css/tesselation-bg-10.png');
-        display: block;
-        position: absolute;
-        bottom: -5px;
-        right: 0;
-        z-index: 998
-    }
-    .homepage-hero.homepage-hero-split:after {
-        content: url('/images/css/tesselation-bg-11.png');
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 998
-    }
 }
 
 @media (min-width: 992px) {
@@ -9936,7 +9912,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 
 .block.promo.promo-image-circle {
     padding-top: 30px;
-    background-image: url('/images/css/tesselation-bg-04.png'), url('/images/css/tesselation-bg-08.png');
     background-position: right bottom, left bottom;
     background-repeat: no-repeat, no-repeat
 }
@@ -9967,7 +9942,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 .block.promo.no-image {
     min-height: 90px;
     text-align: center;
-    background-image: url('/images/css/tesselation-bg-04.png'), url('/images/css/tesselation-bg-08.png');
     background-position: right bottom, left bottom;
     background-repeat: no-repeat, no-repeat
 }
@@ -9998,7 +9972,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
     min-height: 260px;
     text-align: center;
     margin-bottom: 0;
-    background-image: url('/images/css/tesselation-bg-05.png'), url('/images/css/tesselation-bg-07.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right bottom, left top
 }
@@ -10151,7 +10124,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 
 .block.profile.profile-image-circle {
     padding-top: 30px;
-    background-image: url('/images/css/tesselation-bg-04.png'), url('/images/css/tesselation-bg-08.png');
     background-position: right bottom, left bottom;
     background-repeat: no-repeat, no-repeat
 }
@@ -10567,7 +10539,6 @@ a.home-hero-link:link, a.home-hero-link:visited, a.home-hero-link:hover, a.home-
 
 .block.quote.jumbo {
     padding: 20px;
-    background-image: url('/images/css/tesselation-bg-05.png'), url('/images/css/tesselation-bg-07.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right bottom, left top
 }
